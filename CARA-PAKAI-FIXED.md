@@ -13,6 +13,21 @@ kebutuhan yang berbeda.
 > File `.mpp` tidak bisa dibuat di macOS. Buka XML di MS Project (Windows),
 > lalu **Save As** menjadi `.mpp` dengan nama yang sesuai.
 
+> **PENTING — impor ulang XML terbaru (22 Nov 2026).**
+> File `.mpp` yang dibuat dari XML versi awal masih memiliki durasi memanjang
+> (contoh: finish 2027/2028) karena `Remaining Duration` dan tanggal assignment
+> masih membawa nilai lama. XML di repo ini **sudah diperbaiki**: remaining
+> duration = duration, dan tanggal assignment = tanggal task.
+>
+> Silakan buka ulang ketiga XML terbaru di MS Project, lalu **Save As** `.mpp`
+> (timpa file lama). Setelah itu cek **Project → Statistics**:
+>
+> - FIXED dan M8_PROGRESS: finish **24 Apr 2026**, duration **53d**
+> - FINAL: finish **1 Mei 2026**, duration **58d**
+> - Tidak boleh ada tanggal 2027/2028 atau durasi >60 hari.
+>
+> Jika masih muncul durasi memanjang, jangan disimpan — beri tahu saya.
+
 ---
 
 ## 1. Kenapa jadwal asli 187 hari?
@@ -63,21 +78,23 @@ baseline cost sudah disamakan dengan biaya rencana, sehingga:
 | Status Date | 20 Mar 2026 |
 | % Complete proyek | **57%** |
 | Progress per fase | 1.1–1.3 = 100%; 1.4 = 50%; 1.5–1.6 = 0% |
-| BAC | Rp219.678.233 |
-| EV | ± **Rp124,4 juta** |
-| AC | ± **Rp124,4 juta** |
-| PV | ± **Rp151,2 juta** |
-| CV | ± Rp0 |
-| SV | ± **−Rp26,8 juta** |
+| BAC (work packages) | Rp216.678.233 |
+| EV (work packages) | **Rp122.578.233** |
+| AC (work packages) | **Rp122.578.233** |
+| PV (work packages) | ± **Rp149.897.333** |
+| EV/AC total proyek | ± **Rp124.388.145** (termasuk fixed cost) |
+| CV | **Rp0** |
+| SV | ± **−Rp27.319.100** |
 | CPI | **1,00** |
-| SPI | **± 0,82** |
-| EAC | Rp219.678.233 |
+| SPI | **0,818** |
+| EAC (work packages) | Rp216.678.233 |
+| EAC total proyek | Rp219.678.233 |
 | VAC | Rp0 |
 
 Catatan: angka EV/AC/PV di tabel MS Project bisa berbeda tipis karena
 pembulatan dan karena fixed cost proyek Rp3.000.000. Gunakan angka yang
 muncul di **Project → Statistics** dan tabel **Earned Value** saat screenshot.
-CPI tetap 1,00 dan SPI tetap sekitar 0,82.
+CPI tetap 1,00 dan SPI tetap sekitar 0,818.
 
 ### M9/M10 — setelah CR-001 (file `M9_M10_FINAL`)
 
