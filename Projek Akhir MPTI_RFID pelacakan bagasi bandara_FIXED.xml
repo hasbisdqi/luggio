@@ -46,7 +46,7 @@
     <BaselineForEarnedValue>0</BaselineForEarnedValue>
     <AutoAddNewResourcesAndTasks>1</AutoAddNewResourcesAndTasks>
     <StatusDate>2026-03-20T17:00:00</StatusDate>
-    <CurrentDate>2026-11-21T22:55:11</CurrentDate>
+    <CurrentDate>2026-11-22T00:24:38</CurrentDate>
     <MicrosoftProjectServerURL>1</MicrosoftProjectServerURL>
     <Autolink>1</Autolink>
     <NewTaskStartDate>0</NewTaskStartDate>
@@ -569,7 +569,6 @@
             <PercentWorkComplete>0</PercentWorkComplete>
             <Cost>21967823335.8333</Cost>
             <ActualStart>2026-02-09T08:00:00</ActualStart>
-            <ActualCost>3401513333.3333</ActualCost>
             <RemainingDuration>PT1496H0M0S</RemainingDuration>
             <RemainingCost>18566310002.5</RemainingCost>
             <RemainingWork>PT1488H2M1S</RemainingWork>
@@ -591,7 +590,7 @@
                 <Duration>PT424H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
                 <Work>PT1240H0M0S</Work>
-                <Cost>17287800000</Cost>
+                <Cost>21967823335.8333</Cost>
             </Baseline>
             
         </Task>
@@ -638,7 +637,6 @@
             <PercentWorkComplete>0</PercentWorkComplete>
             <Cost>20617823335.8333</Cost>
             <ActualStart>2026-02-09T08:00:00</ActualStart>
-            <ActualCost>3401513333.3333</ActualCost>
             <RemainingDuration>PT1496H0M0S</RemainingDuration>
             <RemainingCost>17216310002.5</RemainingCost>
             <RemainingWork>PT1488H2M1S</RemainingWork>
@@ -660,7 +658,7 @@
                 <Duration>PT424H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
                 <Work>PT1240H0M0S</Work>
-                <Cost>17287800000</Cost>
+                <Cost>20617823335.8333</Cost>
             </Baseline>
             
         </Task>
@@ -723,6 +721,7 @@
                 <Finish>2026-04-13T17:00:00</Finish>
                 <Duration>PT360H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Cost>288000000</Cost>
             </Baseline>
             
         </Task>
@@ -760,7 +759,6 @@
             <EarlyFinish>2026-02-11T17:00:00</EarlyFinish>
             <LateStart>2026-02-09T08:00:00</LateStart>
             <LateFinish>2026-02-11T17:00:00</LateFinish>
-            <WorkVariance>1440000.0</WorkVariance>
             <FixedCostAccrual>3</FixedCostAccrual>
             <PercentComplete>0</PercentComplete>
             <PercentWorkComplete>0</PercentWorkComplete>
@@ -789,6 +787,8 @@
                 <Finish>2026-02-11T17:00:00</Finish>
                 <Duration>PT24H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT24H0M0S</Work>
+                <Cost>288000000</Cost>
             </Baseline>
             
         </Task>
@@ -864,6 +864,7 @@
                 <Number>0</Number>
                 <Start>2026-02-11T17:00:00</Start>
                 <Finish>2026-02-11T17:00:00</Finish>
+                <Cost>960000000</Cost>
             </Baseline>
             
         </Task>
@@ -930,6 +931,7 @@
                 <Finish>2026-04-13T17:00:00</Finish>
                 <Duration>PT360H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Cost>960000000</Cost>
             </Baseline>
             
         </Task>
@@ -967,7 +969,6 @@
             <EarlyFinish>2026-02-12T17:00:00</EarlyFinish>
             <LateStart>2026-10-29T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
-            <WorkVariance>480000.0</WorkVariance>
             <FreeSlack>878400</FreeSlack>
             <TotalSlack>878400</TotalSlack>
             <StartSlack>878400</StartSlack>
@@ -1001,6 +1002,8 @@
                 <Finish>2026-02-09T17:00:00</Finish>
                 <Duration>PT8H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT8H0M0S</Work>
+                <Cost>96000000</Cost>
             </Baseline>
             
         </Task>
@@ -1038,7 +1041,6 @@
             <EarlyFinish>2026-02-16T17:00:00</EarlyFinish>
             <LateStart>2026-10-29T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
-            <WorkVariance>480000.0</WorkVariance>
             <FreeSlack>868800</FreeSlack>
             <TotalSlack>868800</TotalSlack>
             <StartSlack>868800</StartSlack>
@@ -1072,6 +1074,8 @@
                 <Finish>2026-02-16T17:00:00</Finish>
                 <Duration>PT8H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT8H0M0S</Work>
+                <Cost>96000000</Cost>
             </Baseline>
             
         </Task>
@@ -1109,7 +1113,6 @@
             <EarlyFinish>2026-02-23T17:00:00</EarlyFinish>
             <LateStart>2026-10-29T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
-            <WorkVariance>480000.0</WorkVariance>
             <FreeSlack>849600</FreeSlack>
             <TotalSlack>849600</TotalSlack>
             <StartSlack>849600</StartSlack>
@@ -1143,6 +1146,8 @@
                 <Finish>2026-02-23T17:00:00</Finish>
                 <Duration>PT8H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT8H0M0S</Work>
+                <Cost>96000000</Cost>
             </Baseline>
             
         </Task>
@@ -1180,7 +1185,6 @@
             <EarlyFinish>2026-03-02T17:00:00</EarlyFinish>
             <LateStart>2026-10-29T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
-            <WorkVariance>480000.0</WorkVariance>
             <FreeSlack>825600</FreeSlack>
             <TotalSlack>825600</TotalSlack>
             <StartSlack>825600</StartSlack>
@@ -1214,6 +1218,8 @@
                 <Finish>2026-03-02T17:00:00</Finish>
                 <Duration>PT8H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT8H0M0S</Work>
+                <Cost>96000000</Cost>
             </Baseline>
             
         </Task>
@@ -1251,7 +1257,6 @@
             <EarlyFinish>2026-03-09T17:00:00</EarlyFinish>
             <LateStart>2026-10-29T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
-            <WorkVariance>480000.0</WorkVariance>
             <FreeSlack>801600</FreeSlack>
             <TotalSlack>801600</TotalSlack>
             <StartSlack>801600</StartSlack>
@@ -1285,6 +1290,8 @@
                 <Finish>2026-03-09T17:00:00</Finish>
                 <Duration>PT8H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT8H0M0S</Work>
+                <Cost>96000000</Cost>
             </Baseline>
             
         </Task>
@@ -1322,7 +1329,6 @@
             <EarlyFinish>2026-03-16T17:00:00</EarlyFinish>
             <LateStart>2026-10-29T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
-            <WorkVariance>480000.0</WorkVariance>
             <FreeSlack>777600</FreeSlack>
             <TotalSlack>777600</TotalSlack>
             <StartSlack>777600</StartSlack>
@@ -1356,6 +1362,8 @@
                 <Finish>2026-03-16T17:00:00</Finish>
                 <Duration>PT8H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT8H0M0S</Work>
+                <Cost>96000000</Cost>
             </Baseline>
             
         </Task>
@@ -1393,7 +1401,6 @@
             <EarlyFinish>2026-03-23T17:00:00</EarlyFinish>
             <LateStart>2026-10-29T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
-            <WorkVariance>480000.0</WorkVariance>
             <FreeSlack>753600</FreeSlack>
             <TotalSlack>753600</TotalSlack>
             <StartSlack>753600</StartSlack>
@@ -1427,6 +1434,8 @@
                 <Finish>2026-03-23T17:00:00</Finish>
                 <Duration>PT8H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT8H0M0S</Work>
+                <Cost>96000000</Cost>
             </Baseline>
             
         </Task>
@@ -1464,7 +1473,6 @@
             <EarlyFinish>2026-03-30T17:00:00</EarlyFinish>
             <LateStart>2026-10-29T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
-            <WorkVariance>480000.0</WorkVariance>
             <FreeSlack>729600</FreeSlack>
             <TotalSlack>729600</TotalSlack>
             <StartSlack>729600</StartSlack>
@@ -1498,6 +1506,8 @@
                 <Finish>2026-03-30T17:00:00</Finish>
                 <Duration>PT8H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT8H0M0S</Work>
+                <Cost>96000000</Cost>
             </Baseline>
             
         </Task>
@@ -1535,7 +1545,6 @@
             <EarlyFinish>2026-04-06T17:00:00</EarlyFinish>
             <LateStart>2026-10-29T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
-            <WorkVariance>480000.0</WorkVariance>
             <FreeSlack>705600</FreeSlack>
             <TotalSlack>705600</TotalSlack>
             <StartSlack>705600</StartSlack>
@@ -1569,6 +1578,8 @@
                 <Finish>2026-04-06T17:00:00</Finish>
                 <Duration>PT8H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT8H0M0S</Work>
+                <Cost>96000000</Cost>
             </Baseline>
             
         </Task>
@@ -1606,7 +1617,6 @@
             <EarlyFinish>2026-04-13T17:00:00</EarlyFinish>
             <LateStart>2026-10-29T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
-            <WorkVariance>480000.0</WorkVariance>
             <FreeSlack>681600</FreeSlack>
             <TotalSlack>681600</TotalSlack>
             <StartSlack>681600</StartSlack>
@@ -1640,6 +1650,8 @@
                 <Finish>2026-04-13T17:00:00</Finish>
                 <Duration>PT8H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT8H0M0S</Work>
+                <Cost>96000000</Cost>
             </Baseline>
             
         </Task>
@@ -1703,6 +1715,7 @@
                 <Finish>2026-02-25T17:00:00</Finish>
                 <Duration>PT72H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Cost>1332000000</Cost>
             </Baseline>
             
         </Task>
@@ -1740,7 +1753,6 @@
             <EarlyFinish>2026-02-24T17:00:00</EarlyFinish>
             <LateStart>2026-02-12T08:00:00</LateStart>
             <LateFinish>2026-02-24T17:00:00</LateFinish>
-            <WorkVariance>4800000.0</WorkVariance>
             <FixedCostAccrual>3</FixedCostAccrual>
             <PercentComplete>0</PercentComplete>
             <PercentWorkComplete>0</PercentWorkComplete>
@@ -1776,6 +1788,8 @@
                 <Finish>2026-02-19T17:00:00</Finish>
                 <Duration>PT40H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT80H0M0S</Work>
+                <Cost>740000000</Cost>
             </Baseline>
             
         </Task>
@@ -1813,7 +1827,6 @@
             <EarlyFinish>2026-03-02T17:00:00</EarlyFinish>
             <LateStart>2026-03-18T17:00:00</LateStart>
             <LateFinish>2026-03-24T17:00:00</LateFinish>
-            <WorkVariance>1920000.0</WorkVariance>
             <FreeSlack>4800</FreeSlack>
             <TotalSlack>76800</TotalSlack>
             <StartSlack>76800</StartSlack>
@@ -1853,6 +1866,8 @@
                 <Finish>2026-02-25T17:00:00</Finish>
                 <Duration>PT32H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT32H0M0S</Work>
+                <Cost>304000000</Cost>
             </Baseline>
             
         </Task>
@@ -1890,7 +1905,6 @@
             <EarlyFinish>2026-03-02T17:00:00</EarlyFinish>
             <LateStart>2026-02-25T08:00:00</LateStart>
             <LateFinish>2026-03-02T17:00:00</LateFinish>
-            <WorkVariance>1920000.0</WorkVariance>
             <FixedCostAccrual>3</FixedCostAccrual>
             <PercentComplete>0</PercentComplete>
             <PercentWorkComplete>0</PercentWorkComplete>
@@ -1926,6 +1940,8 @@
                 <Finish>2026-02-25T17:00:00</Finish>
                 <Duration>PT32H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
+                <Work>PT32H0M0S</Work>
+                <Cost>288000000</Cost>
             </Baseline>
             
         </Task>
@@ -1956,7 +1972,7 @@
             <Estimated>0</Estimated>
             <Milestone>1</Milestone>
             <Summary>0</Summary>
-            <Critical>0</Critical>
+            <Critical>1</Critical>
             <IsSubproject>0</IsSubproject>
             <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
             <ExternalTask>0</ExternalTask>
@@ -1965,10 +1981,8 @@
             <LateStart>2026-02-25T17:00:00</LateStart>
             <LateFinish>2026-02-25T17:00:00</LateFinish>
             <FixedCostAccrual>3</FixedCostAccrual>
-            <PercentComplete>100</PercentComplete>
-            <PercentWorkComplete>100</PercentWorkComplete>
-            <ActualStart>2026-02-25T17:00:00</ActualStart>
-            <ActualFinish>2026-02-25T17:00:00</ActualFinish>
+            <PercentComplete>0</PercentComplete>
+            <PercentWorkComplete>0</PercentWorkComplete>
             <ConstraintType>0</ConstraintType>
             <CalendarUID>-1</CalendarUID>
             <LevelAssignments>1</LevelAssignments>
@@ -2049,7 +2063,6 @@
             <PercentWorkComplete>0</PercentWorkComplete>
             <Cost>7505823335.8333</Cost>
             <ActualStart>2026-02-20T08:00:00</ActualStart>
-            <ActualCost>3401513333.3333</ActualCost>
             <RemainingDuration>PT152H0M0S</RemainingDuration>
             <RemainingCost>4104310002.5</RemainingCost>
             <RemainingWork>PT192H0M0S</RemainingWork>
@@ -2071,7 +2084,7 @@
                 <Duration>PT80H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
                 <Work>PT192H0M0S</Work>
-                <Cost>6755800000</Cost>
+                <Cost>7505823335.8333</Cost>
             </Baseline>
             
         </Task>
@@ -2103,7 +2116,7 @@
             <Estimated>0</Estimated>
             <Milestone>0</Milestone>
             <Summary>0</Summary>
-            <Critical>0</Critical>
+            <Critical>1</Critical>
             <IsSubproject>0</IsSubproject>
             <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
             <ExternalTask>0</ExternalTask>
@@ -2112,14 +2125,11 @@
             <LateStart>2026-02-26T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
             <FreeSlack>792000</FreeSlack>
-            <TotalSlack>792000</TotalSlack>
             <FinishSlack>792000</FinishSlack>
             <FixedCostAccrual>3</FixedCostAccrual>
             <PercentComplete>0</PercentComplete>
             <PercentWorkComplete>0</PercentWorkComplete>
             <Cost>2722017083.3333</Cost>
-            <ActualStart>2026-02-26T08:00:00</ActualStart>
-            <ActualCost>850007083.3333</ActualCost>
             <RemainingDuration>PT56H0M0S</RemainingDuration>
             <RemainingCost>1872010000</RemainingCost>
             <RemainingWork>PT56H0M0S</RemainingWork>
@@ -2156,7 +2166,7 @@
                 <Duration>PT56H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
                 <Work>PT56H0M0S</Work>
-                <Cost>2722000000</Cost>
+                <Cost>2722017083.3333</Cost>
             </Baseline>
             
         </Task>
@@ -2188,7 +2198,7 @@
             <Estimated>0</Estimated>
             <Milestone>0</Milestone>
             <Summary>0</Summary>
-            <Critical>0</Critical>
+            <Critical>1</Critical>
             <IsSubproject>0</IsSubproject>
             <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
             <ExternalTask>0</ExternalTask>
@@ -2197,14 +2207,11 @@
             <LateStart>2026-02-26T08:00:00</LateStart>
             <LateFinish>2026-10-29T17:00:00</LateFinish>
             <FreeSlack>768000</FreeSlack>
-            <TotalSlack>768000</TotalSlack>
             <FinishSlack>768000</FinishSlack>
             <FixedCostAccrual>3</FixedCostAccrual>
             <PercentComplete>0</PercentComplete>
             <PercentWorkComplete>0</PercentWorkComplete>
             <Cost>1422306252.5</Cost>
-            <ActualStart>2026-02-26T08:00:00</ActualStart>
-            <ActualCost>750006250</ActualCost>
             <RemainingDuration>PT56H0M0S</RemainingDuration>
             <RemainingCost>672300002.5</RemainingCost>
             <RemainingWork>PT56H0M0S</RemainingWork>
@@ -2244,7 +2251,7 @@
                 <Duration>PT56H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
                 <Work>PT56H0M0S</Work>
-                <Cost>672300000</Cost>
+                <Cost>1422306252.5</Cost>
             </Baseline>
             
         </Task>
@@ -2276,7 +2283,7 @@
             <Estimated>0</Estimated>
             <Milestone>0</Milestone>
             <Summary>0</Summary>
-            <Critical>0</Critical>
+            <Critical>1</Critical>
             <IsSubproject>0</IsSubproject>
             <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
             <ExternalTask>0</ExternalTask>
@@ -2284,14 +2291,11 @@
             <EarlyFinish>2026-03-03T17:00:00</EarlyFinish>
             <LateStart>2026-02-20T08:00:00</LateStart>
             <LateFinish>2026-03-11T17:00:00</LateFinish>
-            <TotalSlack>28800</TotalSlack>
             <FinishSlack>28800</FinishSlack>
             <FixedCostAccrual>3</FixedCostAccrual>
             <PercentComplete>0</PercentComplete>
             <PercentWorkComplete>0</PercentWorkComplete>
             <Cost>3361500000</Cost>
-            <ActualStart>2026-02-20T08:00:00</ActualStart>
-            <ActualCost>1801500000</ActualCost>
             <RemainingDuration>PT40H0M0S</RemainingDuration>
             <RemainingCost>1560000000</RemainingCost>
             <RemainingWork>PT80H0M0S</RemainingWork>
@@ -2355,7 +2359,7 @@
             <Estimated>0</Estimated>
             <Milestone>1</Milestone>
             <Summary>0</Summary>
-            <Critical>0</Critical>
+            <Critical>1</Critical>
             <IsSubproject>0</IsSubproject>
             <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
             <ExternalTask>0</ExternalTask>
@@ -2364,10 +2368,8 @@
             <LateStart>2026-03-06T17:00:00</LateStart>
             <LateFinish>2026-03-06T17:00:00</LateFinish>
             <FixedCostAccrual>3</FixedCostAccrual>
-            <PercentComplete>100</PercentComplete>
-            <PercentWorkComplete>100</PercentWorkComplete>
-            <ActualStart>2026-03-06T17:00:00</ActualStart>
-            <ActualFinish>2026-03-06T17:00:00</ActualFinish>
+            <PercentComplete>0</PercentComplete>
+            <PercentWorkComplete>0</PercentWorkComplete>
             <ConstraintType>0</ConstraintType>
             <CalendarUID>-1</CalendarUID>
             <LevelAssignments>1</LevelAssignments>
@@ -3271,7 +3273,7 @@
             <Estimated>0</Estimated>
             <Milestone>1</Milestone>
             <Summary>0</Summary>
-            <Critical>0</Critical>
+            <Critical>1</Critical>
             <IsSubproject>0</IsSubproject>
             <IsSubprojectReadOnly>0</IsSubprojectReadOnly>
             <ExternalTask>0</ExternalTask>
@@ -3280,10 +3282,8 @@
             <LateStart>2026-03-16T17:00:00</LateStart>
             <LateFinish>2026-03-16T17:00:00</LateFinish>
             <FixedCostAccrual>3</FixedCostAccrual>
-            <PercentComplete>100</PercentComplete>
-            <PercentWorkComplete>100</PercentWorkComplete>
-            <ActualStart>2026-03-16T17:00:00</ActualStart>
-            <ActualFinish>2026-03-16T17:00:00</ActualFinish>
+            <PercentComplete>0</PercentComplete>
+            <PercentWorkComplete>0</PercentWorkComplete>
             <ConstraintType>0</ConstraintType>
             <CalendarUID>-1</CalendarUID>
             <LevelAssignments>1</LevelAssignments>
@@ -3577,7 +3577,6 @@
             <EarlyFinish>2026-07-16T17:00:00</EarlyFinish>
             <LateStart>2026-06-09T08:00:00</LateStart>
             <LateFinish>2026-07-16T17:00:00</LateFinish>
-            <WorkVariance>1000.0</WorkVariance>
             <FixedCostAccrual>3</FixedCostAccrual>
             <PercentComplete>0</PercentComplete>
             <PercentWorkComplete>0</PercentWorkComplete>
@@ -3613,7 +3612,7 @@
                 <Finish>2026-04-15T17:00:00</Finish>
                 <Duration>PT32H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
-                <Work>PT64H0M0S</Work>
+                <Work>PT64H1M9S</Work>
                 <Cost>640000000</Cost>
             </Baseline>
             
@@ -3652,7 +3651,6 @@
             <EarlyFinish>2026-08-24T17:00:00</EarlyFinish>
             <LateStart>2026-07-17T08:00:00</LateStart>
             <LateFinish>2026-08-24T17:00:00</LateFinish>
-            <WorkVariance>1000.0</WorkVariance>
             <FixedCostAccrual>3</FixedCostAccrual>
             <PercentComplete>0</PercentComplete>
             <PercentWorkComplete>0</PercentWorkComplete>
@@ -3692,7 +3690,7 @@
                 <Finish>2026-04-21T17:00:00</Finish>
                 <Duration>PT24H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
-                <Work>PT48H0M0S</Work>
+                <Work>PT48H0M52S</Work>
                 <Cost>504000000</Cost>
             </Baseline>
             
@@ -3897,7 +3895,7 @@
                 <Finish>2026-04-24T17:00:00</Finish>
                 <Duration>PT424H0M0S</Duration>
                 <DurationFormat>7</DurationFormat>
-                <Cost>1800000000</Cost>
+                <Cost>1350000000</Cost>
             </Baseline>
             
         </Task>
