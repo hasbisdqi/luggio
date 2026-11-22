@@ -8,7 +8,7 @@ Dokumen lengkap ada di folder [`docs/`](docs/README.md):
 
 - [M8 — WPD & Earned Value](docs/03-wpd-earned-value.md)
 - [M9 — Change Management](docs/01-change-management.md)
-- [Form CR-001](docs/06-cr-form.md)
+- [Form CR 02/CR/2026](docs/06-cr-form.md)
 - [CR Log](docs/07-cr-log.md)
 - [M10 — Closing Report](docs/02-closing-report.md)
 - [Risk Register](docs/05-risk-register.md)

@@ -5,7 +5,9 @@
 | Item | Keterangan |
 |---|---|
 | Nomor Formulir | LUGGIO-CP3-CR-001 |
-| Nomor CR | **CR-001** |
+| Nomor CR | **CR-001** — Form **02/CR/2026** |
+| Tipe CR | Preventive Action |
+| Prioritas | High |
 | Versi | 1.0 |
 | Tanggal Pengajuan | 18 Maret 2026 |
 | Status | Closed — 1 Mei 2026 |

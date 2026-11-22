@@ -13,7 +13,7 @@
 | Baseline | Baseline 0 (24 April 2026) → Baseline 1 (1 Mei 2026) |
 | Disusun oleh | Muhammad Hasbi Assidiqi — Change Administrator |
 | Persetujuan | Ir. Primary Putri Ardiva — Project Manager |
-| Dokumen terkait | Form CR-001; M9 Change Management; M10 Closing Report |
+| Dokumen terkait | Form 02/CR/2026; M9 Change Management; M10 Closing Report |
 | Jumlah CR | 1 diajukan; 1 disetujui; 1 ditutup |
 
 ---
@@ -49,7 +49,7 @@ Seluruh perubahan yang diajukan selama proyek telah selesai dan ditutup pada 1 M
 
 | ID | Tanggal | Pemohon | Judul | Kategori | Status | Tanggal Tutup |
 |---|---|---|---|---|---|---|
-| CR-001 | 18 Mar 2026 | M. Nabiel L. H. | Pengembangan Middleware & Adaptor API DCS | Teknis / lingkup | Closed | 1 Mei 2026 |
+| CR-001 (02/CR/2026) | 18 Mar 2026 | M. Nabiel L. H. | Pengembangan Middleware & Adaptor API DCS | Preventive Action / teknis-lingkup | Closed | 1 Mei 2026 |
 
 ### 4.1 Detail Dampak dan Keputusan
 
@@ -62,7 +62,7 @@ Seluruh perubahan yang diajukan selama proyek telah selesai dan ditutup pada 1 M
 | Baseline 0 | 24 April 2026; Rp219.678.233 |
 | Baseline 1 | 1 Mei 2026; Rp234.678.233 |
 
-Detail CR-001 tersedia pada dokumen **Formulir Permintaan Perubahan CR-001** (`docs/06-cr-form.md`).
+Detail CR-001 tersedia pada **Form Change Request 02/CR/2026** (`docs/06-cr-form.md`).
 
 ---
 

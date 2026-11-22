@@ -8,7 +8,7 @@ Folder ini berisi dokumen CP3 untuk Proyek **LUGGIO: Sistem Pelacakan Bagasi RFI
 |---|---|---|---|
 | M8 — WPD & Earned Value | [03-wpd-earned-value.md](03-wpd-earned-value.md) | [DOCX](docx/03-wpd-earned-value.docx) | [PDF](pdf/03-wpd-earned-value.pdf) |
 | M9 — Change Management | [01-change-management.md](01-change-management.md) | [DOCX](docx/01-change-management.docx) | [PDF](pdf/01-change-management.pdf) |
-| CR Form — CR-001 | [06-cr-form.md](06-cr-form.md) | [DOCX](docx/06-cr-form.docx) | [PDF](pdf/06-cr-form.pdf) |
+| CR Form — 02/CR/2026 | [06-cr-form.md](06-cr-form.md) | [DOCX](docx/06-cr-form.docx) | [PDF](pdf/06-cr-form.pdf) |
 | CR Log | [07-cr-log.md](07-cr-log.md) | [DOCX](docx/07-cr-log.docx) | [PDF](pdf/07-cr-log.pdf) |
 | M10 — Closing Report | [02-closing-report.md](02-closing-report.md) | [DOCX](docx/02-closing-report.docx) | [PDF](pdf/02-closing-report.pdf) |
 | Risk Register | [05-risk-register.md](05-risk-register.md) | [DOCX](docx/05-risk-register.docx) | [PDF](pdf/05-risk-register.pdf) |
@@ -21,7 +21,7 @@ Folder ini berisi dokumen CP3 untuk Proyek **LUGGIO: Sistem Pelacakan Bagasi RFI
 | Finish | 24 Apr 2026 | 1 Mei 2026 |
 | Durasi | 53 hari | 58 hari |
 | BAC | Rp219.678.233 | Rp234.678.233 |
-| CR-001 | — | +Rp15.000.000 (5 hari) |
+| 02/CR/2026 | — | +Rp15.000.000 (5 hari) |
 
 M8 status 20 Mar 2026:
 

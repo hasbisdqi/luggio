@@ -114,7 +114,7 @@ Angka acuan M8:
 
 | No | Item | Bukti | Status |
 |---|---|---|---|
-| D1 | Form CR-001 | `docs/06-cr-form.md` | Tersedia |
+| D1 | Form Change Request 02/CR/2026 | `docs/06-cr-form.md` | Tersedia |
 | D2 | Analisis dampak scope | Bab 7.1 | Tersedia |
 | D3 | Analisis dampak jadwal | Bab 7.2 | Tersedia |
 | D4 | Analisis dampak biaya | Bab 7.3 | Tersedia |
@@ -203,7 +203,7 @@ Angka acuan M10:
 | `docs/03-wpd-earned-value.md` | M8 WPD/EVM |
 | `docs/04-cp3-checklist.md` | Checklist ini |
 | `docs/05-risk-register.md` | Risk Register ringkasan |
-| `docs/06-cr-form.md` | Form CR-001 |
+| `docs/06-cr-form.md` | Form Change Request 02/CR/2026 |
 | `docs/07-cr-log.md` | CR Log |
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_FIXED.xml` | Jadwal bersih |
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M8_PROGRESS.xml` | Progress M8 |

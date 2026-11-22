@@ -15,12 +15,13 @@
 | Persetujuan | Ir. Primary Putri Ardiva — Project Manager |
 | Persetujuan | Ir. H. Max Verstappen — Project Sponsor |
 | Dokumen terkait | Project Charter v1.0; MPP LUGGIO; Change Request Log; Closing Report |
+| Form Change Request | **02/CR/2026** — Pengembangan Middleware & Adaptor API DCS (terlampir) |
 
 ---
 
 ## 1. Ringkasan Eksekutif
 
-Selama tahap perancangan integrasi, tim menemukan bahwa *Departure Control System* (DCS) Bandara Indo-Aero masih menggunakan protokol dan format pesan legacy. Integrasi langsung dari aplikasi LUGGIO ke DCS berisiko tinggi terhadap kegagalan SIT, kehilangan data, dan tidak terpenuhinya FR-10. Oleh karena itu diajukan **Change Request CR-001** berupa penambahan layanan middleware/adaptor API DCS.
+Selama tahap perancangan integrasi, tim menemukan bahwa *Departure Control System* (DCS) Bandara Indo-Aero masih menggunakan protokol dan format pesan legacy. Integrasi langsung dari aplikasi LUGGIO ke DCS berisiko tinggi terhadap kegagalan SIT, kehilangan data, dan tidak terpenuhinya FR-10. Oleh karena itu diajukan **Change Request CR-001 (Form 02/CR/2026)** berupa penambahan layanan middleware/adaptor API DCS.
 
 CR-001 telah dievaluasi oleh *Change Control Board* (CCB) pada **24 Maret 2026** dan disetujui dengan syarat. Dampak yang disetujui adalah penambahan **5 hari kerja** dan **Rp15.000.000**, sehingga Baseline 1 menjadi:
 
@@ -133,11 +134,11 @@ Baseline 0 tidak diubah. Setelah CR disetujui dan jadwal diperbarui, **Baseline 
 
 | Field | Isi |
 |---|---|
-| ID CR | CR-001 |
+| ID CR | **CR-001** — Form **02/CR/2026** |
 | Tanggal pengajuan | 18 Maret 2026 |
 | Pemohon | Muhammad Nabiel Lukman Hakim — System Analyst |
-| Kategori | Perubahan teknis/lingkup (integrasi) |
-| Prioritas | Tinggi |
+| Tipe CR | Preventive Action — perubahan teknis/lingkup (integrasi) |
+| Prioritas | High |
 | Status | Closed |
 | WBS terdampak | 1.4.7 (baru), 1.6.1, 1.6.2, 1.6.3, 1.6.4, 1.6.5, 1.6.6 |
 | Requirement terkait | FR-10, FR-03, FR-12 |
@@ -398,7 +399,7 @@ Baseline 0 tetap menjadi dasar perbandingan Earned Value. Baseline 1 digunakan u
 
 | ID | Tanggal | Pemohon | Deskripsi | Kategori | Dampak biaya | Dampak jadwal | Keputusan | Status |
 |---|---|---|---|---|---:|---:|---|---|
-| CR-001 | 18 Mar 2026 | M. Nabiel L. H. | Middleware & Adaptor API DCS | Teknis/lingkup | +Rp15.000.000 | +5 hari | Disetujui CCB 24 Mar 2026 | Closed 1 Mei 2026 |
+| CR-001 (02/CR/2026) | 18 Mar 2026 | M. Nabiel L. H. | Middleware & Adaptor API DCS | Preventive Action / teknis-lingkup | +Rp15.000.000 | +5 hari | Disetujui CCB 24 Mar 2026 | Closed 1 Mei 2026 |
 
 Tidak ada change request lain yang diajukan selama proyek.
 
@@ -434,14 +435,16 @@ Tidak ada change request lain yang diajukan selama proyek.
 
 ### Lampiran A — Form Ringkas CR-001
 
-> Formulir lengkap tersedia di [`06-cr-form.md`](06-cr-form.md) dan log perubahan di [`07-cr-log.md`](07-cr-log.md).
+> Formulir lengkap **02/CR/2026** tersedia di [`06-cr-form.md`](06-cr-form.md) (format resmi) dan log perubahan di [`07-cr-log.md`](07-cr-log.md).
 
 | Field | Isi |
 |---|---|
+| Form | 02/CR/2026 — CHANGE REQUEST FORM |
 | ID | CR-001 |
 | Judul | Pengembangan Middleware & Adaptor API DCS |
 | Pemohon | Muhammad Nabiel Lukman Hakim |
 | Tanggal | 18 Maret 2026 |
+| Tipe / Prioritas | Preventive Action / High |
 | Deskripsi | Menambahkan layanan middleware untuk menerjemahkan protokol LUGGIO ke DCS legacy, termasuk queue, retry, idempotency, audit log, dan monitoring. |
 | Alasan | Memenuhi FR-10, mengurangi risiko SIT/UAT, menjaga akurasi data. |
 | Dampak biaya | +Rp15.000.000 |
