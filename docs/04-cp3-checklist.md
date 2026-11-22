@@ -114,7 +114,7 @@ Angka acuan M8:
 
 | No | Item | Bukti | Status |
 |---|---|---|---|
-| D1 | Form CR-001 | Lampiran A | Tersedia |
+| D1 | Form CR-001 | `docs/06-cr-form.md` | Tersedia |
 | D2 | Analisis dampak scope | Bab 7.1 | Tersedia |
 | D3 | Analisis dampak jadwal | Bab 7.2 | Tersedia |
 | D4 | Analisis dampak biaya | Bab 7.3 | Tersedia |
@@ -124,7 +124,7 @@ Angka acuan M8:
 | D8 | Opsi yang dipertimbangkan | Bab 8 | Tersedia |
 | D9 | Notulen CCB | Bab 9 | Tersedia |
 | D10 | Keputusan dan syarat | Bab 9.4 | Tersedia |
-| D11 | CR log | Bab 11 | Tersedia |
+| D11 | CR log | `docs/07-cr-log.md` | Tersedia |
 | D12 | Baseline 1 ditetapkan | Bab 10.3 | Tersedia |
 | D13 | Sign-off | Lampiran C | Perlu tanda tangan |
 
@@ -203,6 +203,8 @@ Angka acuan M10:
 | `docs/03-wpd-earned-value.md` | M8 WPD/EVM |
 | `docs/04-cp3-checklist.md` | Checklist ini |
 | `docs/05-risk-register.md` | Risk Register ringkasan |
+| `docs/06-cr-form.md` | Form CR-001 |
+| `docs/07-cr-log.md` | CR Log |
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_FIXED.xml` | Jadwal bersih |
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M8_PROGRESS.xml` | Progress M8 |
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M9_M10_FINAL.xml` | CR-001 + Baseline 1 |

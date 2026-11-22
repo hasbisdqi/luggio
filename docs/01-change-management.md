@@ -434,6 +434,8 @@ Tidak ada change request lain yang diajukan selama proyek.
 
 ### Lampiran A — Form Ringkas CR-001
 
+> Formulir lengkap tersedia di [`06-cr-form.md`](06-cr-form.md) dan log perubahan di [`07-cr-log.md`](07-cr-log.md).
+
 | Field | Isi |
 |---|---|
 | ID | CR-001 |
