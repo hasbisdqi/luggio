@@ -12,6 +12,7 @@ Folder ini berisi dokumen CP3 untuk Proyek **LUGGIO: Sistem Pelacakan Bagasi RFI
 | CR Form — 02/CR/2026 | [06b-cr-form-002.md](06b-cr-form-002.md) | — | — |
 | CR Log | [07-cr-log.md](07-cr-log.md) | [XLSX](xlsx/07-cr-log.xlsx) — template *Change Request Log* | — (dibuat manual dari XLSX) |
 | M10 — Closing Report | [02-closing-report.md](02-closing-report.md) | [DOCX](docx/02-closing-report.docx) | [PDF](pdf/02-closing-report.pdf) |
+| M10 — Closing Report (format template) | [02b-closing-report-format.md](02b-closing-report-format.md) | — | — |
 | Risk Register | [05-risk-register.md](05-risk-register.md) | [DOCX](docx/05-risk-register.docx) | [PDF](pdf/05-risk-register.pdf) |
 | Checklist CP3 | [04-cp3-checklist.md](04-cp3-checklist.md) | [DOCX](docx/04-cp3-checklist.docx) | [PDF](pdf/04-cp3-checklist.pdf) |
 
