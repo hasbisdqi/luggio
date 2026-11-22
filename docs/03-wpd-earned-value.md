@@ -17,6 +17,8 @@
 
 ---
 
+> **CATATAN DATA.** Angka pada dokumen ini dihitung pada status date 20 Maret 2026. MPP terbaru (`..._f2f154.xml`) memakai status date **20 April 2026** dengan finish 29 Mei 2026; nilai biaya pada MPP masih tercatat 100× lipat sehingga AC per *work package* belum dapat dipakai. Dokumen ini perlu dihitung ulang setelah AC per *task* dikoreksi.
+
 ## 1. Ringkasan Status
 
 Per 20 Maret 2026, proyek berada pada kondisi **on budget, behind schedule**:

@@ -19,6 +19,10 @@
 
 ---
 
+> **CATATAN STATUS DOKUMEN.** Dokumen ini versi panjang (naratif). Angka jadwal dan biaya final mengikuti [`02b-closing-report-format.md`](02b-closing-report-format.md) yang bersumber dari MPP `..._f2f154.xml` (finish 29 Mei 2026; BAC Rp252.100.000; biaya akhir Rp254.980.000; CPI 0,989). Angka EV/biaya pada dokumen ini masih memakai data M8 lama dan **perlu diregenerasi**.
+
+---
+
 ## A. Ringkasan Eksekutif
 
 Proyek LUGGIO telah selesai dan diserahterimakan pada **24 April 2026**, sesuai tanggal selesai Baseline 0. Sistem pelacakan bagasi berbasis RFID telah terpasang, terintegrasi dengan DCS melalui middleware, dilengkapi validasi dan retry pembacaan RFID, diuji melalui SIT/UAT, dan digunakan oleh staf operasional bandara.
