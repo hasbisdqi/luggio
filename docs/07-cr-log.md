@@ -24,9 +24,22 @@ CR Log digunakan untuk mencatat seluruh permintaan perubahan proyek secara berur
 
 ---
 
-## 2. Aturan Pencatatan
+## 2. Tabel Log (Format Template)
 
-1. Setiap permintaan perubahan wajib memiliki **ID unik** dengan format `CR-XXX`.
+Tabel berikut adalah isi CR Log sesuai template *Change Request Log* dan menjadi sumber pengisian file Excel (`docs/xlsx/07-cr-log.xlsx`).
+
+> **CHANGE REQUEST LOG**
+> **LUGGIO: Sistem Pelacakan Bagasi RFID Bandara Indo-Aero (Luggage Tracking System) — Proyek Akhir MPTI**
+
+| ID CR | Nama Pengajuan | Tipe CR | Prioritas | Tanggal Pengajuan | Pengaju | Status | Tanggal Keputusan | Keterangan | No. |
+|---|---|---|---|---|---|---|---|---|---|
+| 02/CR/2026 | Pengembangan Middleware & Adaptor API DCS (WBS 1.4.7) | Preventive Action | High | 18/03/2026 | M. Nabiel L. H. | Approved with conditions | 24/03/2026 | Disetujui CCB 24 Mar 2026 dengan 6 syarat; dampak +Rp15.000.000 dan +5 hari kerja. Baseline 1 (1 Mei 2026, Rp234.678.233) ditetapkan 25 Mar 2026. Status implementasi: Closed 1 Mei 2026. | 1 |
+
+---
+
+## 3. Aturan Pencatatan
+
+1. Setiap permintaan perubahan wajib memiliki **ID unik** dengan format `XX/CR/2026` (dua digit nomor urut + kode tahun), misalnya `02/CR/2026`. Nomor urut mengikuti urutan pengajuan: `01/CR/2026`, `02/CR/2026`, dan seterusnya.
 2. CR dicatat pada hari pengajuan, sebelum analisis dampak dimulai.
 3. Status CR mengikuti alur: **Submitted → Under Review → Approved/Rejected → Implemented → Verified → Closed**.
 4. Perubahan yang disetujui harus memperbarui baseline terkait (jadwal, biaya, lingkup) dan dokumen proyek.
@@ -35,7 +48,7 @@ CR Log digunakan untuk mencatat seluruh permintaan perubahan proyek secara berur
 
 ---
 
-## 3. Ringkasan Log
+## 4. Ringkasan Log
 
 | Total CR | Disetujui | Ditolak | Ditunda | Dalam proses | Ditutup |
 |---:|---:|---:|---:|---:|---:|
@@ -45,13 +58,13 @@ Seluruh perubahan yang diajukan selama proyek telah selesai dan ditutup pada 1 M
 
 ---
 
-## 4. Register Change Request
+## 5. Register Change Request
 
-| ID | Tanggal | Pemohon | Judul | Kategori | Status | Tanggal Tutup |
-|---|---|---|---|---|---|---|
-| CR-001 (02/CR/2026) | 18 Mar 2026 | M. Nabiel L. H. | Pengembangan Middleware & Adaptor API DCS | Preventive Action / teknis-lingkup | Closed | 1 Mei 2026 |
+| ID CR | Tanggal | Pengaju | Nama Pengajuan | Tipe CR | Prioritas | Status | Tanggal Keputusan |
+|---|---|---|---|---|---|---|---|
+| 02/CR/2026 | 18/03/2026 | M. Nabiel L. H. | Pengembangan Middleware & Adaptor API DCS (WBS 1.4.7) | Preventive Action | High | Approved with conditions → Closed | 24/03/2026 |
 
-### 4.1 Detail Dampak dan Keputusan
+### 5.1 Detail Dampak dan Keputusan
 
 | Item | Isi |
 |---|---|
@@ -62,25 +75,27 @@ Seluruh perubahan yang diajukan selama proyek telah selesai dan ditutup pada 1 M
 | Baseline 0 | 24 April 2026; Rp219.678.233 |
 | Baseline 1 | 1 Mei 2026; Rp234.678.233 |
 
-Detail CR-001 tersedia pada **Form Change Request 02/CR/2026** (`docs/06-cr-form.md`).
+Detail 02/CR/2026 tersedia pada **Form Change Request 02/CR/2026** (`docs/06-cr-form.md`).
 
 ---
 
-## 5. Riwayat Status CR-001
+## 6. Riwayat Status 02/CR/2026
+
+Tanggal pada tabel riwayat ditulis `DD/MM/YYYY` agar konsisten saat disalin ke Excel.
 
 | Tanggal | Status | Aktivitas | PIC |
 |---|---|---|---|
-| 18 Mar 2026 | Submitted | Pengajuan CR oleh System Analyst | M. Nabiel L. H. |
-| 18–23 Mar 2026 | Under Review | Analisis dampak scope, jadwal, biaya, resource, kualitas, risiko | PM, SA, QA |
-| 24 Mar 2026 | Approved | Rapat CCB dan keputusan | Sponsor / CCB |
-| 25 Mar 2026 | Baseline Updated | Baseline 1 ditetapkan | PM |
-| 2–8 Apr 2026 | Implemented | Desain, implementasi, unit test, integration test | SA, Developer, QA |
-| 9–15 Apr 2026 | Verified | SIT dan regresi | QA |
-| 17–22 Apr 2026 | Verified | UAT dan simulasi bagasi nyasar | QA / User |
-| 23–28 Apr 2026 | Implemented | Pelatihan dan sosialisasi | Trainer / PM |
-| 1 Mei 2026 | Closed | Serah terima dan penutupan CR | PM |
+| 18/03/2026 | Submitted | Pengajuan CR oleh System Analyst | M. Nabiel L. H. |
+| 18–23/03/2026 | Under Review | Analisis dampak scope, jadwal, biaya, resource, kualitas, risiko | PM, SA, QA |
+| 24/03/2026 | Approved | Rapat CCB dan keputusan | Sponsor / CCB |
+| 25/03/2026 | Baseline Updated | Baseline 1 ditetapkan | PM |
+| 02–08/04/2026 | Implemented | Desain, implementasi, unit test, integration test | SA, Developer, QA |
+| 09–15/04/2026 | Verified | SIT dan regresi | QA |
+| 17–22/04/2026 | Verified | UAT dan simulasi bagasi nyasar | QA / User |
+| 23–28/04/2026 | Implemented | Pelatihan dan sosialisasi | Trainer / PM |
+| 01/05/2026 | Closed | Serah terima dan penutupan CR | PM |
 
-### 5.1 Catatan Penting per Tahap
+### 6.1 Catatan Penting per Tahap
 
 | Tahap | Catatan |
 |---|---|
@@ -91,12 +106,12 @@ Detail CR-001 tersedia pada **Form Change Request 02/CR/2026** (`docs/06-cr-form
 | Verified | SIT 100% skenario kritis lulus; UAT 98,4% lulus, 2 defect minor ditutup. |
 | Closed | CR ditutup bersama closing report; 50 personel terlatih. |
 
-## 6. Dampak Kumulatif terhadap Baseline
+## 7. Dampak Kumulatif terhadap Baseline
 
 | Baseline | Tanggal Selesai | Durasi | BAC | Status |
 |---|---|---:|---:|---|
 | Baseline 0 (awal) | 24 April 2026 | 53 hari | Rp219.678.233 | Tidak diubah |
-| Baseline 1 (setelah CR-001) | 1 Mei 2026 | 58 hari | Rp234.678.233 | Aktif sampai closing |
+| Baseline 1 (setelah 02/CR/2026) | 1 Mei 2026 | 58 hari | Rp234.678.233 | Aktif sampai closing |
 
 | Item | Baseline 0 | Baseline 1 | Selisih |
 |---|---:|---:|---:|
@@ -107,27 +122,27 @@ Detail CR-001 tersedia pada **Form Change Request 02/CR/2026** (`docs/06-cr-form
 
 ---
 
-## 7. CR yang Ditolak atau Ditunda
+## 8. CR yang Ditolak atau Ditunda
 
-| ID | Tanggal | Deskripsi | Alasan | Status |
+| ID CR | Tanggal | Deskripsi | Alasan | Status |
 |---|---|---|---|---|
 | — | — | Tidak ada | — | — |
 
-Tidak ada CR yang ditolak atau ditunda selama proyek. Opsi alternatif di dalam CR-001 (integrasi langsung, vendor middleware, dan penundaan integrasi) ditolak pada tingkat analisis opsi, bukan sebagai CR terpisah.
+Tidak ada CR yang ditolak atau ditunda selama proyek. Opsi alternatif di dalam 02/CR/2026 (integrasi langsung, vendor middleware, dan penundaan integrasi) ditolak pada tingkat analisis opsi, bukan sebagai CR terpisah.
 
 ---
 
-## 8. Lessons Learned dari Pengelolaan CR
+## 9. Lessons Learned dari Pengelolaan CR
 
 1. **Validasi antarmuka eksternal sejak perencanaan.** Protokol DCS seharusnya diverifikasi sebelum baseline disetujui.
 2. **Satu CR, satu formulir, satu keputusan.** Pemisahan formulir dan log membuat jejak audit lebih jelas.
-3. **Dampak harus terukur.** CR-001 memiliki angka pasti: +5 hari dan +Rp15.000.000.
+3. **Dampak harus terukur.** 02/CR/2026 memiliki angka pasti: +5 hari dan +Rp15.000.000.
 4. **Baseline 0 tidak boleh diubah.** Baseline 1 digunakan untuk menilai kinerja setelah perubahan.
 5. **Status CR harus diperbarui pada rapat mingguan** agar tidak ada perubahan yang menggantung.
 
 ---
 
-## 9. Tanda Tangan
+## 10. Tanda Tangan
 
 | Nama | Jabatan | Peran | Tanda tangan | Tanggal |
 |---|---|---|---|---|
@@ -137,14 +152,13 @@ Tidak ada CR yang ditolak atau ditunda selama proyek. Opsi alternatif di dalam C
 
 ---
 
-## Lampiran — Rekap per Kategori
+## Lampiran — Rekap per Tipe CR
 
-| Kategori | Jumlah CR | Dampak Biaya | Dampak Jadwal |
+| Tipe CR | Jumlah CR | Dampak Biaya | Dampak Jadwal |
 |---|---:|---:|---:|
-| Teknis / lingkup | 1 | +Rp15.000.000 | +5 hari |
-| Jadwal | 0 | — | — |
-| Biaya | 0 | — | — |
-| Kualitas | 0 | — | — |
+| Preventive Action | 1 | +Rp15.000.000 | +5 hari |
+| Corrective Action | 0 | — | — |
+| Defect Repair | 0 | — | — |
 | **Total** | **1** | **+Rp15.000.000** | **+5 hari** |
 
 ---

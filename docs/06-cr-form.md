@@ -4,18 +4,19 @@
 
 | Item | Keterangan |
 |---|---|
-| Nomor Formulir | LUGGIO-CP3-CR-001 |
-| Nomor CR | **CR-001** — Form **02/CR/2026** |
+| Nomor Formulir | LUGGIO-CP3-CR-01 |
+| Nomor CR | **02/CR/2026** |
 | Tipe CR | Preventive Action |
 | Prioritas | High |
 | Versi | 1.0 |
-| Tanggal Pengajuan | 18 Maret 2026 |
-| Status | Closed — 1 Mei 2026 |
+| Tanggal Pengajuan | 18/03/2026 |
+| Status | Closed — 01/05/2026 |
 | Proyek | LUGGIO: Sistem Pelacakan Bagasi RFID Bandara Indo-Aero |
 | Baseline Terdampak | Baseline 0 (24 April 2026) → Baseline 1 (1 Mei 2026) |
 | Dokumen terkait | Project Charter v1.0; MPP LUGGIO; M9 Change Management; CR Log |
 | Pemohon | Muhammad Nabiel Lukman Hakim — System Analyst |
 | Keputusan CCB | Disetujui dengan syarat, 24 Maret 2026 |
+| Nomor Urut Log | 1 (lihat CR Log `07-cr-log.md`) |
 
 ---
 
@@ -36,8 +37,8 @@
 
 | Field | Isi |
 |---|---|
-| Judul CR | Pengembangan Middleware & Adaptor API DCS |
-| Kategori | Perubahan teknis dan lingkup (integrasi sistem eksternal) |
+| Judul CR | Pengembangan Middleware & Adaptor API DCS (WBS 1.4.7) |
+| Tipe CR | Preventive Action (perubahan teknis dan lingkup — integrasi sistem eksternal) |
 | Prioritas | Tinggi |
 | Jenis perubahan | Penambahan pekerjaan baru (WBS 1.4.7) |
 | WBS terdampak | 1.4.7 (baru), 1.6.1, 1.6.2, 1.6.3, 1.6.4, 1.6.5, 1.6.6 |
@@ -148,7 +149,7 @@ Jalur kritis setelah perubahan: **1.4.6 → 1.4.7 → 1.6.1/1.6.2 → 1.6.3 → 
 | Item | Nilai |
 |---|---:|
 | Baseline 0 (BAC) | Rp219.678.233 |
-| Biaya CR-001 | Rp15.000.000 |
+| Biaya 02/CR/2026 | Rp15.000.000 |
 | Baseline 1 (BAC) | **Rp234.678.233** |
 | Variance | +Rp15.000.000 (+6,83%) |
 | Pagu Charter | Rp285.000.000 |

@@ -8,7 +8,7 @@ kebutuhan yang berbeda.
 |---|---|---|
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_FIXED.xml` | Jadwal bersih, Baseline 0, **tanpa** progress, Baseline 1 kosong | Master / arsip. Jika ingin mulai dari nol. |
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M8_PROGRESS.xml` | Baseline 0 + progress simulasi per **20 Mar 2026**, Baseline 1 kosong | Screenshot **M8**: EV table, EV over time, S-Curve, Gantt progress. |
-| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M9_M10_FINAL.xml` | Baseline 0 + **CR-001** + **Baseline 1** + semua task 100% | Screenshot **M9** (verifikasi CR/Baseline 1) dan **M10** (closing/final EV). |
+| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M9_M10_FINAL.xml` | Baseline 0 + **02/CR/2026** + **Baseline 1** + semua task 100% | Screenshot **M9** (verifikasi CR/Baseline 1) dan **M10** (closing/final EV). |
 
 > File `.mpp` tidak bisa dibuat di macOS. Buka XML di MS Project (Windows),
 > lalu **Save As** menjadi `.mpp` dengan nama yang sesuai.
@@ -96,14 +96,14 @@ pembulatan dan karena fixed cost proyek Rp3.000.000. Gunakan angka yang
 muncul di **Project → Statistics** dan tabel **Earned Value** saat screenshot.
 CPI tetap 1,00 dan SPI tetap sekitar 0,818.
 
-### M9/M10 — setelah CR-001 (file `M9_M10_FINAL`)
+### M9/M10 — setelah 02/CR/2026 (file `M9_M10_FINAL`)
 
 | Item | Baseline 0 | Baseline 1 |
 |---|---|---|
 | Finish | 24 Apr 2026 | **1 Mei 2026** |
 | Durasi | 53 hari | **58 hari** |
 | Total cost | Rp219.678.233 | **Rp234.678.233** |
-| CR-001 | — | +Rp15.000.000 (5 hari) |
+| 02/CR/2026 | — | +Rp15.000.000 (5 hari) |
 
 | Item | Nilai akhir |
 |---|---|
@@ -115,7 +115,7 @@ CPI tetap 1,00 dan SPI tetap sekitar 0,818.
 | VAC | **−Rp15.000.000** |
 | SPI saat selesai | 1,00 |
 
-CR-001 di file FINAL:
+02/CR/2026 di file FINAL:
 
 - Nama: **Pengembangan Middleware & Adaptor API DCS**
 - WBS: **1.4.7** (di bawah 1.4 Pengembangan Software)
@@ -176,7 +176,7 @@ CR-001 di file FINAL:
    - Project Statistics (Baseline 0 vs Baseline 1),
    - tabel Earned Value akhir (EV, AC, CPI, EAC, VAC),
    - Gantt final dengan Baseline 1,
-   - task CR-001.
+   - task 02/CR/2026.
 6. Angka akhir: EV Rp219.678.233; AC Rp234.678.233; CPI 0,936;
    EAC Rp234.678.233; VAC −Rp15.000.000.
 

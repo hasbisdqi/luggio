@@ -20,7 +20,7 @@
 | XML jadwal (FIXED, M8, FINAL) | Selesai | Sudah diperbaiki: remaining duration dan assignment dates diselaraskan. |
 | File `.mpp` | **Perlu impor ulang** | File `.mpp` yang dibuat dari XML versi awal masih memanjang (518 hari / finish 2028). Impor ulang ketiga XML terbaru dan simpan sebagai `.mpp`. |
 | M8 WPD/EVM | Dokumen selesai | Screenshot tabel EV, S-Curve, dan Gantt masih perlu ditempel. |
-| M9 Change Management | Dokumen selesai | CR-001, analisis dampak, notulen CCB, dan CR log tersedia. |
+| M9 Change Management | Dokumen selesai | 02/CR/2026, analisis dampak, notulen CCB, dan CR log tersedia. |
 | M10 Closing Report | Dokumen selesai | Section A–H tersedia; risk register ringkasan tersedia. |
 | DOCX/PDF | Selesai | Dikonversi dari Markdown dengan pandoc. |
 | Sign-off | Perlu tanda tangan | Nama dan tanggal sudah diisi. |
@@ -124,13 +124,13 @@ Angka acuan M8:
 | D8 | Opsi yang dipertimbangkan | Bab 8 | Tersedia |
 | D9 | Notulen CCB | Bab 9 | Tersedia |
 | D10 | Keputusan dan syarat | Bab 9.4 | Tersedia |
-| D11 | CR log | `docs/07-cr-log.md` | Tersedia |
+| D11 | CR log | `docs/07-cr-log.md` (`docs/xlsx/07-cr-log.xlsx`) | Tersedia |
 | D12 | Baseline 1 ditetapkan | Bab 10.3 | Tersedia |
 | D13 | Sign-off | Lampiran C | Perlu tanda tangan |
 
 Angka acuan M9:
 
-- CR-001: 5 hari, Rp15.000.000.
+- 02/CR/2026: 5 hari, Rp15.000.000.
 - Baseline 0: 24 Apr 2026, Rp219.678.233.
 - Baseline 1: 1 Mei 2026, Rp234.678.233.
 - Status: Closed 1 Mei 2026.
@@ -203,11 +203,12 @@ Angka acuan M10:
 | `docs/03-wpd-earned-value.md` | M8 WPD/EVM |
 | `docs/04-cp3-checklist.md` | Checklist ini |
 | `docs/05-risk-register.md` | Risk Register ringkasan |
-| `docs/06-cr-form.md` | Form Change Request 02/CR/2026 |
-| `docs/07-cr-log.md` | CR Log |
+| `docs/06-cr-form.md` | Form Change Request 02/CR/2026 (sumber pengisian template DOCX) |
+| `docs/07-cr-log.md` | CR Log (sumber pengisian template XLSX) |
+| `docs/xlsx/07-cr-log.xlsx` | CR Log dalam format template Excel |
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_FIXED.xml` | Jadwal bersih |
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M8_PROGRESS.xml` | Progress M8 |
-| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M9_M10_FINAL.xml` | CR-001 + Baseline 1 |
+| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M9_M10_FINAL.xml` | 02/CR/2026 + Baseline 1 |
 
 ---
 

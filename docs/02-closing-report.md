@@ -23,7 +23,7 @@
 
 Proyek LUGGIO telah selesai dan diserahterimakan pada **1 Mei 2026**. Sistem pelacakan bagasi berbasis RFID telah terpasang, terintegrasi dengan DCS melalui middleware, diuji melalui SIT/UAT, dan digunakan oleh staf operasional bandara.
 
-Proyek selesai **5 hari kerja setelah Baseline 0** karena perubahan yang disetujui, yaitu **CR-001: Pengembangan Middleware & Adaptor API DCS**. Perubahan ini menambah Rp15.000.000 dan 5 hari kerja, sehingga Baseline 1 menjadi 1 Mei 2026 dengan biaya Rp234.678.233.
+Proyek selesai **5 hari kerja setelah Baseline 0** karena perubahan yang disetujui, yaitu **02/CR/2026: Pengembangan Middleware & Adaptor API DCS**. Perubahan ini menambah Rp15.000.000 dan 5 hari kerja, sehingga Baseline 1 menjadi 1 Mei 2026 dengan biaya Rp234.678.233.
 
 | Indikator | Baseline 0 | Baseline 1 | Realisasi |
 |---|---:|---:|---:|
@@ -35,7 +35,7 @@ Proyek selesai **5 hari kerja setelah Baseline 0** karena perubahan yang disetuj
 | CPI | — | — | **0,936** |
 | VAC | — | — | **−Rp15.000.000** |
 
-Kinerja biaya berada di bawah pagu Charter Rp285.000.000. Varians biaya negatif Rp15.000.000 sepenuhnya berasal dari CR-001, bukan dari pembengkakan biaya pekerjaan dasar. Seluruh *deliverable* utama telah diterima; satu target KPI sumber daya manusia (pelatihan 50 personel sebelum 18 April) terlambat karena pergeseran jadwal CR-001, tetapi terpenuhi sebelum penutupan proyek.
+Kinerja biaya berada di bawah pagu Charter Rp285.000.000. Varians biaya negatif Rp15.000.000 sepenuhnya berasal dari 02/CR/2026, bukan dari pembengkakan biaya pekerjaan dasar. Seluruh *deliverable* utama telah diterima; satu target KPI sumber daya manusia (pelatihan 50 personel sebelum 18 April) terlambat karena pergeseran jadwal 02/CR/2026, tetapi terpenuhi sebelum penutupan proyek.
 
 ---
 
@@ -70,7 +70,7 @@ Kinerja biaya berada di bawah pagu Charter Rp285.000.000. Varians biaya negatif 
 
 ### B.3 Perubahan Lingkup
 
-Satu-satunya perubahan lingkup adalah **CR-001** (middleware/adaptor API DCS). Tidak ada pekerjaan di luar *out of scope* Charter, tidak ada pengurangan *deliverable*, dan tidak ada perubahan pada conveyor belt maupun aplikasi mobile penumpang.
+Satu-satunya perubahan lingkup adalah **02/CR/2026** (middleware/adaptor API DCS). Tidak ada pekerjaan di luar *out of scope* Charter, tidak ada pengurangan *deliverable*, dan tidak ada perubahan pada conveyor belt maupun aplikasi mobile penumpang.
 
 ---
 
@@ -99,13 +99,13 @@ Satu-satunya perubahan lingkup adalah **CR-001** (middleware/adaptor API DCS). T
 
 Jalur kritis proyek berada pada rangkaian pengembangan software dan pengujian:
 
-**1.4.6 → 1.4.7 (CR-001) → 1.6.1/1.6.2 → 1.6.3 → 1.6.4 → 1.6.5 → 1.6.6**
+**1.4.6 → 1.4.7 (02/CR/2026) → 1.6.1/1.6.2 → 1.6.3 → 1.6.4 → 1.6.5 → 1.6.6**
 
 Pekerjaan pengadaan dan instalasi fisik memiliki kelonggaran 13–19 hari, sehingga tidak menjadi penentu tanggal akhir. Sebaliknya, penambahan 5 hari pada 1.4.7 langsung menggeser dua cabang pengujian paralel (1.6.1 dan 1.6.2), lalu UAT, pelatihan, dan penutupan.
 
 ### C.4 Varians Jadwal
 
-- Terhadap Baseline 0: **+5 hari kerja**, seluruhnya disebabkan CR-001.
+- Terhadap Baseline 0: **+5 hari kerja**, seluruhnya disebabkan 02/CR/2026.
 - Terhadap Baseline 1: **0 hari**; proyek selesai sesuai baseline yang telah disetujui.
 - SPI saat selesai: **1,00** terhadap Baseline 1, karena seluruh lingkup baseline telah diselesaikan. Keterlambatan 5 hari tetap terlihat dari perbandingan tanggal Baseline 0 dan Baseline 1, bukan dari SPI akhir.
 
@@ -129,7 +129,7 @@ Pekerjaan pengadaan dan instalasi fisik memiliki kelonggaran 13–19 hari, sehin
 
 ### D.2 Rincian Biaya per Fase
 
-| WBS | Fase | Baseline 0 | CR-001 | Final |
+| WBS | Fase | Baseline 0 | 02/CR/2026 | Final |
 |---|---|---:|---:|---:|
 | 1.1 | Manajemen Proyek | Rp12.480.000 | — | Rp12.480.000 |
 | 1.2 | Survei & Perencanaan | Rp13.320.000 | — | Rp13.320.000 |
@@ -143,9 +143,9 @@ Pekerjaan pengadaan dan instalasi fisik memiliki kelonggaran 13–19 hari, sehin
 
 ### D.3 Analisis Varians Biaya
 
-1. **CPI 0,936** berarti setiap Rp1 yang dianggarkan menghasilkan Rp0,936 nilai pekerjaan. Varians negatif Rp15.000.000 berasal dari CR-001 yang disetujui, bukan dari inefisiensi pekerjaan dasar.
-2. Tanpa CR-001, proyek berada tepat pada anggaran: EV = AC = Rp219.678.233 dan CPI = 1,00.
-3. **Contingency reserve Rp13.500.000 tetap tercatat sebagai bagian BAC** dan tidak ditarik sebagai tambahan biaya di luar baseline. CR-001 didanai dari *management reserve* yang tersedia di dalam pagu Charter; tidak ada penggunaan contingency reserve khusus untuk CR-001.
+1. **CPI 0,936** berarti setiap Rp1 yang dianggarkan menghasilkan Rp0,936 nilai pekerjaan. Varians negatif Rp15.000.000 berasal dari 02/CR/2026 yang disetujui, bukan dari inefisiensi pekerjaan dasar.
+2. Tanpa 02/CR/2026, proyek berada tepat pada anggaran: EV = AC = Rp219.678.233 dan CPI = 1,00.
+3. **Contingency reserve Rp13.500.000 tetap tercatat sebagai bagian BAC** dan tidak ditarik sebagai tambahan biaya di luar baseline. 02/CR/2026 didanai dari *management reserve* yang tersedia di dalam pagu Charter; tidak ada penggunaan contingency reserve khusus untuk 02/CR/2026.
 4. Pagu Charter Rp285.000.000 tidak terlampaui. Sisa pagu setelah proyek adalah **Rp50.321.767**.
 5. EAC sama dengan AC karena seluruh pekerjaan telah selesai (ETC = 0). VAC negatif Rp15.000.000 mencerminkan tambahan biaya perubahan, bukan pemborosan.
 
@@ -163,7 +163,7 @@ Pekerjaan pengadaan dan instalasi fisik memiliki kelonggaran 13–19 hari, sehin
 | KPI-04 — Kesiapan SDM | 50 personel lulus pelatihan pada 18 Apr 2026 | **50 personel selesai 28 Apr 2026** | Terlambat 10 hari; terpenuhi sebelum closing |
 | KPI-05 — Efisiensi biaya | ≤Rp285.000.000 | **Rp234.678.233** | Tercapai |
 
-Catatan KPI-04: pergeseran 5 hari akibat CR-001 menggeser pelatihan dari 16–21 April menjadi 23–28 April. Seluruh 50 personel telah lulus sebelum penutupan proyek 1 Mei 2026, tetapi target tanggal 18 April tidak terpenuhi.
+Catatan KPI-04: pergeseran 5 hari akibat 02/CR/2026 menggeser pelatihan dari 16–21 April menjadi 23–28 April. Seluruh 50 personel telah lulus sebelum penutupan proyek 1 Mei 2026, tetapi target tanggal 18 April tidak terpenuhi.
 
 ### E.2 Kualitas Pengujian
 
@@ -198,12 +198,12 @@ Catatan KPI-04: pergeseran 5 hari akibat CR-001 menggeser pelatihan dari 16–21
 | ID | Respons |
 |---|---|
 | R-01 | Pemesanan awal, monitoring vendor, buffer pengiriman |
-| R-02 | CR-001 middleware/adaptor, contract test, simulator |
+| R-02 | 02/CR/2026 middleware/adaptor, contract test, simulator |
 | R-03 | Koordinasi slot, tim siaga, pekerjaan per zona |
 | R-04 | Site survey, penempatan tag, pilot, kalibrasi |
 | R-05 | AP outdoor, survey coverage, uji roaming |
 | R-06 | Pelatihan dua batch, jadwal shift, refresher |
-| R-07 | CCB, CR-001, baseline 1 |
+| R-07 | CCB, 02/CR/2026, baseline 1 |
 | R-08 | Penjadwalan fleksibel, pekerjaan dalam ruang |
 | R-09 | Monitoring vendor, regression test, documented interface |
 
@@ -222,7 +222,7 @@ Register lengkap dengan skor, penyebab, owner, dan residual tersedia dalam **Ris
 
 | Item | Keterangan |
 |---|---|
-| CR | CR-001 — Pengembangan Middleware & Adaptor API DCS |
+| CR | 02/CR/2026 — Pengembangan Middleware & Adaptor API DCS |
 | Tanggal pengajuan | 18 Maret 2026 |
 | Keputusan CCB | Disetujui dengan syarat, 24 Maret 2026 |
 | Dampak biaya | +Rp15.000.000 |
@@ -232,7 +232,7 @@ Register lengkap dengan skor, penyebab, owner, dan residual tersedia dalam **Ris
 | Status | Closed 1 Mei 2026 |
 | CR lain | Tidak ada |
 
-CR-001 tidak mengurangi lingkup, tidak mengubah pagu Charter, dan tidak menggunakan contingency reserve. Detail analisis dampak, notulen CCB, dan log perubahan tersedia dalam dokumen **M9 — Laporan Manajemen Perubahan**.
+02/CR/2026 tidak mengurangi lingkup, tidak mengubah pagu Charter, dan tidak menggunakan contingency reserve. Detail analisis dampak, notulen CCB, dan log perubahan tersedia dalam dokumen **M9 — Laporan Manajemen Perubahan**.
 
 ---
 
@@ -242,7 +242,7 @@ CR-001 tidak mengurangi lingkup, tidak mengubah pagu Charter, dan tidak mengguna
 2. **Middleware perlu dimasukkan sebagai pekerjaan eksplisit dalam WBS** ketika sistem eksternal menggunakan teknologi lama.
 3. **Pemisahan Baseline 0 dan Baseline 1 sangat membantu.** Dampak perubahan menjadi transparan dan evaluasi kinerja tidak tercampur.
 4. **Pengadaan dan instalasi fisik berjalan baik.** Pemesanan awal dan koordinasi window malam membuat instalasi selesai 16 Maret, jauh sebelum batas 10 April.
-5. **Buffer pengujian perlu dijaga.** CR-001 menghabiskan sebagian buffer, sehingga fase SIT/UAT menjadi lebih ketat.
+5. **Buffer pengujian perlu dijaga.** 02/CR/2026 menghabiskan sebagian buffer, sehingga fase SIT/UAT menjadi lebih ketat.
 6. **Pelatihan sebaiknya dijadwalkan lebih awal atau modular.** Target 18 April tidak tercapai karena pergeseran jadwal; model dua batch dapat dipertahankan untuk proyek berikutnya.
 7. **Data baseline biaya harus konsisten sebelum EVM dijalankan.** Perbaikan baseline cost pada MPP memastikan BAC dan CPI dapat dipercaya.
 8. **Dokumentasi perubahan dan closing harus disiapkan paralel dengan eksekusi**, bukan di akhir proyek.

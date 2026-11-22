@@ -114,7 +114,7 @@ Catatan: % Complete 1.4 adalah 50% untuk task yang sudah dimulai (1.4.1–1.4.4)
 2. Seluruh work package yang telah selesai (1.1–1.3) memiliki EV = AC. Pekerjaan 1.4 yang berjalan juga memiliki EV = AC karena actual cost diisi proporsional terhadap progress.
 3. Contingency reserve Rp13,50 juta belum digunakan; belum ada perubahan biaya yang disetujui per 20 Maret 2026.
 4. Fixed cost proyek Rp3,00 juta dialokasikan proporsional terhadap progress; kontribusinya sekitar Rp1,81 juta pada EV/AC.
-5. Karena CPI = 1,00, **EAC = BAC** dan **VAC = Rp0** untuk pekerjaan dasar. Proyeksi ini akan berubah jika CR-001 (middleware DCS) disetujui setelah status date.
+5. Karena CPI = 1,00, **EAC = BAC** dan **VAC = Rp0** untuk pekerjaan dasar. Proyeksi ini akan berubah jika 02/CR/2026 (middleware DCS) disetujui setelah status date.
 
 ---
 
@@ -166,7 +166,7 @@ Interpretasi yang diharapkan:
 | 2 | Siapkan test script, environment, dan data uji SIT secara paralel | QA/Tester | 31 Maret 2026 | Agar 1.6 tidak menunggu 1.5/1.4 selesai |
 | 3 | Monitor 1.4.1–1.4.6; pastikan 1.4.5 dan 1.4.6 mulai sesuai jadwal | System Analyst/Developer | Mingguan | 1.4 baru 50%; 1.4.5–1.4.6 belum mulai |
 | 4 | Review EVM setiap minggu dan update % Complete aktual | Project Manager | Mingguan | Menjaga akurasi CPI/SPI |
-| 5 | Selesaikan analisis CR-001 middleware DCS | System Analyst/CCB | 24 Maret 2026 | Risiko integrasi DCS perlu keputusan sebelum SIT |
+| 5 | Selesaikan analisis 02/CR/2026 middleware DCS | System Analyst/CCB | 24 Maret 2026 | Risiko integrasi DCS perlu keputusan sebelum SIT |
 | 6 | Jika 1.5 melewati 31 Maret, lakukan schedule compression/fast-tracking | Project Manager | Kondisional | Menjaga finish 24 April 2026 |
 
 ---
@@ -176,7 +176,7 @@ Interpretasi yang diharapkan:
 1. **Biaya:** proyek on budget; CPI 1,00; CV Rp0; EAC = BAC = Rp216.678.233 (work packages) atau Rp219.678.233 termasuk fixed cost.
 2. **Jadwal:** proyek tertinggal; SPI 0,818; SV −Rp27,32 juta. Penyebab utama adalah 1.5 yang belum mulai dan 1.4 yang baru 50%.
 3. **Risiko:** keterlambatan masih dapat dipulihkan karena 1.5 memiliki float dan 1.6 belum dimulai. Namun, waktu pemulihan terbatas sampai awal April.
-4. **Tindakan:** percepat 1.5, siapkan pengujian secara paralel, monitor 1.4, dan selesaikan keputusan CR-001 sebelum SIT.
+4. **Tindakan:** percepat 1.5, siapkan pengujian secara paralel, monitor 1.4, dan selesaikan keputusan 02/CR/2026 sebelum SIT.
 5. **Proyeksi:** jika tindakan dilakukan, biaya akhir tetap di bawah pagu Charter dan jadwal dapat kembali ke 24 April 2026. Jika tidak, finish proyek berpotensi mundur.
 
 ---

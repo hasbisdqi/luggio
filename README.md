@@ -24,7 +24,7 @@ Tiga file XML disiapkan untuk kebutuhan berbeda:
 |---|---|---|
 | `..._FIXED.xml` | Baseline 0, tanpa progress | Master/arsip |
 | `..._M8_PROGRESS.xml` | Progress 20 Mar 2026 | Screenshot M8 |
-| `..._M9_M10_FINAL.xml` | CR-001 + Baseline 1 + 100% | M9/M10 |
+| `..._M9_M10_FINAL.xml` | 02/CR/2026 + Baseline 1 + 100% | M9/M10 |
 
 ## Penting — impor ulang ke MPP
 

@@ -21,17 +21,17 @@
 
 ## 1. Ringkasan Eksekutif
 
-Selama tahap perancangan integrasi, tim menemukan bahwa *Departure Control System* (DCS) Bandara Indo-Aero masih menggunakan protokol dan format pesan legacy. Integrasi langsung dari aplikasi LUGGIO ke DCS berisiko tinggi terhadap kegagalan SIT, kehilangan data, dan tidak terpenuhinya FR-10. Oleh karena itu diajukan **Change Request CR-001 (Form 02/CR/2026)** berupa penambahan layanan middleware/adaptor API DCS.
+Selama tahap perancangan integrasi, tim menemukan bahwa *Departure Control System* (DCS) Bandara Indo-Aero masih menggunakan protokol dan format pesan legacy. Integrasi langsung dari aplikasi LUGGIO ke DCS berisiko tinggi terhadap kegagalan SIT, kehilangan data, dan tidak terpenuhinya FR-10. Oleh karena itu diajukan **Change Request 02/CR/2026** berupa penambahan layanan middleware/adaptor API DCS.
 
-CR-001 telah dievaluasi oleh *Change Control Board* (CCB) pada **24 Maret 2026** dan disetujui dengan syarat. Dampak yang disetujui adalah penambahan **5 hari kerja** dan **Rp15.000.000**, sehingga Baseline 1 menjadi:
+02/CR/2026 telah dievaluasi oleh *Change Control Board* (CCB) pada **24 Maret 2026** dan disetujui dengan syarat. Dampak yang disetujui adalah penambahan **5 hari kerja** dan **Rp15.000.000**, sehingga Baseline 1 menjadi:
 
-| Item | Baseline 0 | CR-001 | Baseline 1 |
+| Item | Baseline 0 | 02/CR/2026 | Baseline 1 |
 |---|---:|---:|---:|
 | Tanggal selesai | 24 April 2026 | +5 hari kerja | **1 Mei 2026** |
 | Durasi | 53 hari | +5 hari | **58 hari** |
 | Biaya (BAC) | Rp219.678.233 | +Rp15.000.000 | **Rp234.678.233** |
 
-Perubahan ini tidak mengurangi lingkup, tidak mengubah pagu Charter sebesar Rp285.000.000, dan tidak menggunakan contingency reserve proyek. CR-001 dinyatakan **closed** pada 1 Mei 2026 setelah middleware terintegrasi, lulus SIT/UAT, dan diserahkan bersama dokumen penutupan proyek.
+Perubahan ini tidak mengurangi lingkup, tidak mengubah pagu Charter sebesar Rp285.000.000, dan tidak menggunakan contingency reserve proyek. 02/CR/2026 dinyatakan **closed** pada 1 Mei 2026 setelah middleware terintegrasi, lulus SIT/UAT, dan diserahkan bersama dokumen penutupan proyek.
 
 ---
 
@@ -46,7 +46,7 @@ Pada Project Charter v1.0, integrasi DCS tercantum sebagai bagian dari lingkup p
 3. Diperlukan mekanisme antrean, *retry*, *idempotency*, dan *audit log* agar tidak terjadi duplikasi atau kehilangan data saat koneksi terputus.
 4. Pengujian langsung tanpa lapisan adaptor berpotensi menggagalkan SIT dan UAT.
 
-Temuan ini memenuhi kriteria perubahan karena memengaruhi **lingkup teknis, jadwal, biaya, dan risiko integrasi**. Sesuai prosedur manajemen perubahan, tim mengajukan CR-001 kepada CCB sebelum pekerjaan tambahan dilaksanakan.
+Temuan ini memenuhi kriteria perubahan karena memengaruhi **lingkup teknis, jadwal, biaya, dan risiko integrasi**. Sesuai prosedur manajemen perubahan, tim mengajukan 02/CR/2026 kepada CCB sebelum pekerjaan tambahan dilaksanakan.
 
 ---
 
@@ -77,7 +77,7 @@ Ruang lingkup manajemen perubahan mencakup perubahan pada:
 | Project Sponsor | Ir. H. Max Verstappen | Menyetujui perubahan yang berdampak pada pagu dan komitmen organisasi; ketua CCB. |
 | Project Manager | Ir. Primary Putri Ardiva | Mengelola proses perubahan, memimpin analisis dampak, memperbarui baseline, dan melaporkan status. |
 | Change Administrator | Muhammad Hasbi Assidiqi | Mencatat CR, mengelola log, menyiapkan dokumen CCB, dan mengarsipkan keputusan. |
-| System Analyst | Muhammad Nabiel Lukman Hakim | Menganalisis dampak teknis dan kebutuhan integrasi; pemohon CR-001. |
+| System Analyst | Muhammad Nabiel Lukman Hakim | Menganalisis dampak teknis dan kebutuhan integrasi; pemohon 02/CR/2026. |
 | Software Developer | Santosa | Mengimplementasikan middleware/adaptor dan unit test. |
 | QA / Tester | Siska | Menyusun test case integrasi, melaksanakan SIT/regresi, dan memverifikasi hasil. |
 | User Representative | Rusdi | Memastikan perubahan tidak mengganggu proses operasional ground handling dan check-in. |
@@ -128,13 +128,13 @@ Baseline 0 tidak diubah. Setelah CR disetujui dan jadwal diperbarui, **Baseline 
 
 ---
 
-## 6. Change Request CR-001
+## 6. Change Request 02/CR/2026
 
 ### 6.1 Identitas CR
 
 | Field | Isi |
 |---|---|
-| ID CR | **CR-001** — Form **02/CR/2026** |
+| ID CR | **02/CR/2026** |
 | Tanggal pengajuan | 18 Maret 2026 |
 | Pemohon | Muhammad Nabiel Lukman Hakim — System Analyst |
 | Tipe CR | Preventive Action — perubahan teknis/lingkup (integrasi) |
@@ -166,7 +166,7 @@ Middleware berfungsi untuk:
 
 ### 6.4 Lingkup yang Berubah
 
-| Aspek | Sebelum CR-001 | Setelah CR-001 |
+| Aspek | Sebelum 02/CR/2026 | Setelah 02/CR/2026 |
 |---|---|---|
 | Integrasi DCS | Diasumsikan dapat dilakukan langsung dari backend | Melalui middleware/adaptor khusus |
 | WBS | Tidak ada task middleware | Task 1.4.7, 5 hari |
@@ -181,7 +181,7 @@ Middleware berfungsi untuk:
 
 ### 7.1 Dampak terhadap Lingkup
 
-CR-001 menambah satu *deliverable* teknis (middleware/adaptor) dan memperluas pengujian integrasi. Tidak ada *deliverable* yang dihapus atau dikurangi. Seluruh FR dalam Charter tetap berlaku.
+02/CR/2026 menambah satu *deliverable* teknis (middleware/adaptor) dan memperluas pengujian integrasi. Tidak ada *deliverable* yang dihapus atau dikurangi. Seluruh FR dalam Charter tetap berlaku.
 
 ### 7.2 Dampak terhadap Jadwal
 
@@ -213,7 +213,7 @@ Task 1.1–1.5 tidak terdampak, kecuali penambahan 1.4.7. Instalasi fisik (1.5) 
 | Item | Nilai |
 |---|---:|
 | Baseline 0 (BAC) | Rp219.678.233 |
-| Biaya CR-001 | Rp15.000.000 |
+| Biaya 02/CR/2026 | Rp15.000.000 |
 | Baseline 1 (BAC) | **Rp234.678.233** |
 | Variance | +Rp15.000.000 (+6,83%) |
 | Pagu Charter | Rp285.000.000 |
@@ -222,7 +222,7 @@ Task 1.1–1.5 tidak terdampak, kecuali penambahan 1.4.7. Instalasi fisik (1.5) 
 | Management reserve awal | Rp65.321.767 |
 | Management reserve setelah CR | Rp50.321.767 |
 
-Rincian estimasi biaya CR-001:
+Rincian estimasi biaya 02/CR/2026:
 
 | Komponen | Volume | Tarif | Total |
 |---|---:|---:|---:|
@@ -307,7 +307,7 @@ Keputusan CCB: **Opsi C**.
 | Tanggal | 24 Maret 2026 |
 | Waktu | 10.00–11.30 WIB |
 | Tempat | Ruang Rapat Divisi TI / hybrid |
-| Agenda | Review CR-001 — Middleware & Adaptor API DCS |
+| Agenda | Review 02/CR/2026 — Middleware & Adaptor API DCS |
 | Ketua | Ir. H. Max Verstappen (Project Sponsor) |
 | Sekretaris | Muhammad Hasbi Assidiqi (Change Administrator) |
 
@@ -335,7 +335,7 @@ Kuorum terpenuhi (7 dari 7 anggota hadir).
 
 ### 9.4 Keputusan
 
-**CR-001 disetujui dengan syarat** sebagai berikut:
+**02/CR/2026 disetujui dengan syarat** sebagai berikut:
 
 1. Biaya implementasi tidak melebihi Rp15.000.000.
 2. Integration test dengan simulator DCS wajib lulus sebelum SIT.
@@ -399,7 +399,7 @@ Baseline 0 tetap menjadi dasar perbandingan Earned Value. Baseline 1 digunakan u
 
 | ID | Tanggal | Pemohon | Deskripsi | Kategori | Dampak biaya | Dampak jadwal | Keputusan | Status |
 |---|---|---|---|---|---:|---:|---|---|
-| CR-001 (02/CR/2026) | 18 Mar 2026 | M. Nabiel L. H. | Middleware & Adaptor API DCS | Preventive Action / teknis-lingkup | +Rp15.000.000 | +5 hari | Disetujui CCB 24 Mar 2026 | Closed 1 Mei 2026 |
+| 02/CR/2026 | 18/03/2026 | M. Nabiel L. H. | Middleware & Adaptor API DCS | Preventive Action / teknis-lingkup | +Rp15.000.000 | +5 hari | Disetujui CCB 24 Mar 2026 | Closed 1 Mei 2026 |
 
 Tidak ada change request lain yang diajukan selama proyek.
 
@@ -416,7 +416,7 @@ Tidak ada change request lain yang diajukan selama proyek.
 | Risk Register | Penambahan risiko integrasi DCS dan mitigasi middleware. |
 | Test Plan | Penambahan 12 skenario integrasi, retry, dan idempotency. |
 | Requirements Traceability | FR-10, FR-03, FR-12 diperbarui. |
-| Closing Report | Memuat CR-001, dampak, dan hasil verifikasi. |
+| Closing Report | Memuat 02/CR/2026, dampak, dan hasil verifikasi. |
 
 ---
 
@@ -427,20 +427,20 @@ Tidak ada change request lain yang diajukan selama proyek.
 3. **CCB efektif mencegah perubahan liar.** Dampak biaya dan jadwal dianalisis sebelum implementasi.
 4. **Baseline 0 dan Baseline 1 harus dipisahkan.** Pemisahan ini membuat dampak perubahan terukur dan tidak mengaburkan evaluasi kinerja.
 5. **Koordinasi vendor DCS harus dimulai lebih awal** untuk mendapatkan akses simulator dan dokumentasi protokol.
-6. **Buffer pengujian perlu dijaga.** CR-001 menghabiskan sebagian buffer jadwal, sehingga fase pengujian menjadi lebih ketat.
+6. **Buffer pengujian perlu dijaga.** 02/CR/2026 menghabiskan sebagian buffer jadwal, sehingga fase pengujian menjadi lebih ketat.
 
 ---
 
 ## 14. Lampiran
 
-### Lampiran A — Form Ringkas CR-001
+### Lampiran A — Form Ringkas 02/CR/2026
 
 > Formulir lengkap **02/CR/2026** tersedia di [`06-cr-form.md`](06-cr-form.md) (format resmi) dan log perubahan di [`07-cr-log.md`](07-cr-log.md).
 
 | Field | Isi |
 |---|---|
 | Form | 02/CR/2026 — CHANGE REQUEST FORM |
-| ID | CR-001 |
+| ID | 02/CR/2026 |
 | Judul | Pengembangan Middleware & Adaptor API DCS |
 | Pemohon | Muhammad Nabiel Lukman Hakim |
 | Tanggal | 18 Maret 2026 |
