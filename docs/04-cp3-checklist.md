@@ -9,7 +9,7 @@
 | Tanggal | 22 November 2026 |
 | Status | Checklist internal |
 | Proyek | LUGGIO: Sistem Pelacakan Bagasi RFID Bandara Indo-Aero |
-| Baseline | Baseline 0 dan Baseline 1 |
+| Baseline | Baseline 0 — 24 April 2026, 53 hari (BAC diperbarui menjadi Rp242.678.233 setelah 01/CR/2026 dan 02/CR/2026) |
 
 ---
 
@@ -20,7 +20,7 @@
 | XML jadwal (FIXED, M8, FINAL) | Selesai | Sudah diperbaiki: remaining duration dan assignment dates diselaraskan. |
 | File `.mpp` | **Perlu impor ulang** | File `.mpp` yang dibuat dari XML versi awal masih memanjang (518 hari / finish 2028). Impor ulang ketiga XML terbaru dan simpan sebagai `.mpp`. |
 | M8 WPD/EVM | Dokumen selesai | Screenshot tabel EV, S-Curve, dan Gantt masih perlu ditempel. |
-| M9 Change Management | Dokumen selesai | 02/CR/2026, analisis dampak, notulen CCB, dan CR log tersedia. |
+| M9 Change Management | Dokumen selesai | 01/CR/2026 dan 02/CR/2026, analisis dampak, notulen CCB, dan CR log tersedia. |
 | M10 Closing Report | Dokumen selesai | Section A–H tersedia; risk register ringkasan tersedia. |
 | DOCX/PDF | Selesai | Dikonversi dari Markdown dengan pandoc. |
 | Sign-off | Perlu tanda tangan | Nama dan tanggal sudah diisi. |
@@ -32,8 +32,8 @@
 | No | Item | Bukti | Status | Catatan |
 |---|---|---|---|---|
 | A1 | Project Charter v1.0 | PDF Charter | Tersedia | Tanggal 2 Feb 2026 |
-| A2 | WBS dan WBS Dictionary | MPP/WBS | Tersedia | Termasuk 1.4.7 |
-| A3 | Jadwal proyek | MPP/XML | Tersedia | Baseline 0 dan Baseline 1 |
+| A2 | WBS dan WBS Dictionary | MPP/WBS | Tersedia | Termasuk 1.4.7 dan 1.4.8 |
+| A3 | Jadwal proyek | MPP/XML | Tersedia | Baseline 0 (finish 24 Apr 2026; BAC Rp242.678.233) |
 | A4 | Risk Register | `docs/05-risk-register.md` | Tersedia | Ringkasan; lampirkan file asli jika ada |
 | A5 | Laporan mingguan 1–10 | Dokumen mingguan | Tersedia | Lampirkan jika diminta |
 | A6 | M8 WPD/EVM | `docs/03-wpd-earned-value.md` | Tersedia | Screenshot perlu ditempel |
@@ -49,20 +49,21 @@
 
 | No | File | Nilai yang harus muncul | Status |
 |---|---|---|---|
-| B1 | `..._FIXED.mpp` | Finish 24 Apr 2026; Duration 53d; Cost Rp219.678.233; Baseline 1 kosong | Perlu impor ulang |
-| B2 | `..._M8_PROGRESS.mpp` | Status 20 Mar 2026; % Complete 57%; AC Rp124.388.145; CPI 1,00; SPI ±0,82 | Perlu impor ulang |
-| B3 | `..._M9_M10_FINAL.mpp` | Finish 1 Mei 2026; Duration 58d; Cost Rp234.678.233; Baseline 1 Rp234.678.233; semua task 100% | Perlu impor ulang |
+| B1 | `..._FIXED.mpp` | Finish 24 Apr 2026; Duration 53d; Cost Rp219.678.233 (sebelum CR) | Perlu impor ulang |
+| B2 | `..._M8_PROGRESS.mpp` | Status 20 Mar 2026; % Complete 51%; AC Rp124.388.145; CPI 1,00; SPI ±0,82 | Perlu impor ulang |
+| B3 | `..._M9_M10_FINAL.mpp` | Finish 24 Apr 2026; Duration 53d; Cost Rp242.678.233; semua task 100% | Perlu impor ulang |
 
 ### B.2 Pemeriksaan Wajib Setelah Impor
 
 - [ ] Tidak ada task dengan durasi >60 hari.
 - [ ] Tidak ada finish 2027/2028.
 - [ ] Status Date M8 = 20 Maret 2026.
-- [ ] Status Date FINAL = 1 Mei 2026.
-- [ ] Baseline 0 finish 24 April 2026; cost Rp219.678.233.
-- [ ] Baseline 1 finish 1 Mei 2026; cost Rp234.678.233.
-- [ ] Task 1.4.7 Middleware & Adaptor API DCS ada, 5 hari, Rp15.000.000.
-- [ ] Task 1.6.1/1.6.2 memiliki predecessor 1.4.7.
+- [ ] Status Date FINAL = 24 April 2026.
+- [ ] Finish proyek (milestone 1.6.6) = 24 April 2026, sebelum maupun sesudah CR.
+- [ ] Cost final = Rp242.678.233.
+- [ ] Task 1.4.7 Middleware API DCS ada, 5 hari, Rp15.000.000.
+- [ ] Task 1.4.8 Validasi dan Retry RFID ada, 3 hari, Rp8.000.000.
+- [ ] 1.4.7 dan 1.4.8 dijadwalkan paralel (tidak memanjangkan jalur kritis).
 - [ ] Tidak ada split task.
 - [ ] Resource dan kalender terbawa.
 - [ ] Custom field Text1/Text2 terbawa.
@@ -72,12 +73,10 @@
 | Field | FIXED/M8 | FINAL |
 |---|---|---|
 | Start | 9 Feb 2026 | 9 Feb 2026 |
-| Finish | 24 Apr 2026 | 1 Mei 2026 |
-| Duration | 53 hari | 58 hari |
-| Cost | Rp219.678.233 | Rp234.678.233 |
-| Baseline 0 | Rp219.678.233 | Rp219.678.233 |
-| Baseline 1 | — | Rp234.678.233 |
-| Status Date | 20 Mar 2026 | 1 Mei 2026 |
+| Finish | 24 Apr 2026 | 24 Apr 2026 |
+| Duration | 53 hari | 53 hari |
+| Cost | Rp219.678.233 (belum termasuk CR) | Rp242.678.233 |
+| Status Date | 20 Mar 2026 | 24 Apr 2026 |
 
 ---
 
@@ -98,14 +97,14 @@
 
 Angka acuan M8:
 
-- BAC work packages: Rp216.678.233
+- BAC work packages: Rp239.678.233
 - PV: ±Rp149.897.333
 - EV/AC: Rp122.578.233
 - CV: Rp0
 - SV: −Rp27.319.100
 - CPI: 1,00
 - SPI: 0,818
-- EAC: Rp216.678.233
+- EAC: Rp239.678.233
 - VAC: Rp0
 
 ---
@@ -114,7 +113,7 @@ Angka acuan M8:
 
 | No | Item | Bukti | Status |
 |---|---|---|---|
-| D1 | Form Change Request 02/CR/2026 | `docs/06-cr-form.md` | Tersedia |
+| D1 | Form Change Request 01/CR/2026 dan 02/CR/2026 | `docs/06-cr-form.md`, `docs/06b-cr-form-002.md` | Tersedia |
 | D2 | Analisis dampak scope | Bab 7.1 | Tersedia |
 | D3 | Analisis dampak jadwal | Bab 7.2 | Tersedia |
 | D4 | Analisis dampak biaya | Bab 7.3 | Tersedia |
@@ -125,15 +124,16 @@ Angka acuan M8:
 | D9 | Notulen CCB | Bab 9 | Tersedia |
 | D10 | Keputusan dan syarat | Bab 9.4 | Tersedia |
 | D11 | CR log | `docs/07-cr-log.md` (`docs/xlsx/07-cr-log.xlsx`) | Tersedia |
-| D12 | Baseline 1 ditetapkan | Bab 10.3 | Tersedia |
+| D12 | Pembaruan BAC (tanggal tidak berubah) | Bab 10.3 | Tersedia |
 | D13 | Sign-off | Lampiran C | Perlu tanda tangan |
 
 Angka acuan M9:
 
-- 02/CR/2026: 5 hari, Rp15.000.000.
-- Baseline 0: 24 Apr 2026, Rp219.678.233.
-- Baseline 1: 1 Mei 2026, Rp234.678.233.
-- Status: Closed 1 Mei 2026.
+- 01/CR/2026: 5 hari kerja (paralel), Rp15.000.000, High.
+- 02/CR/2026: 3 hari kerja (paralel), Rp8.000.000, Medium.
+- Tipe CR: Corrective Action; disetujui CCB 24/03/2026.
+- Baseline 0: 24 Apr 2026, 53 hari, BAC Rp219.678.233 → Rp242.678.233.
+- Status: Closed 24 April 2026.
 
 ---
 
@@ -143,7 +143,7 @@ Angka acuan M9:
 |---|---|---|---|
 | E1 | Ringkasan eksekutif | Bagian A | Tersedia |
 | E2 | Verifikasi lingkup dan deliverable | Bagian B | Tersedia |
-| E3 | Kinerja jadwal (B0 vs B1) | Bagian C | Tersedia |
+| E3 | Kinerja jadwal (rencana vs aktual) | Bagian C | Tersedia |
 | E4 | Kinerja biaya (EVM akhir) | Bagian D | Tersedia |
 | E5 | Kualitas, risiko, dan KPI | Bagian E | Tersedia |
 | E6 | Manajemen perubahan | Bagian F | Tersedia |
@@ -152,17 +152,18 @@ Angka acuan M9:
 | E9 | Risk register | `docs/05-risk-register.md` | Tersedia | Ringkasan; lampirkan file asli jika ada |
 | E10 | Screenshot Project Statistics | MS Project | **Perlu screenshot** |
 | E11 | Screenshot tabel EV akhir | MS Project | **Perlu screenshot** |
-| E12 | Screenshot Gantt Baseline 1 | MS Project | **Perlu screenshot** |
+| E12 | Screenshot Gantt final (finish 24 Apr) | MS Project | **Perlu screenshot** |
 
 Angka acuan M10:
 
-- EV: Rp219.678.233
-- AC: Rp234.678.233
-- CV: −Rp15.000.000
-- CPI: 0,936
-- EAC: Rp234.678.233
-- VAC: −Rp15.000.000
-- Finish: 1 Mei 2026
+- BAC: Rp242.678.233
+- EV: Rp242.678.233
+- AC: Rp242.678.233
+- CV: Rp0
+- CPI: 1,00
+- EAC: Rp242.678.233
+- VAC: Rp0
+- Finish: 24 April 2026
 
 ---
 
@@ -185,10 +186,10 @@ Angka acuan M10:
 ## 8. Catatan Penting
 
 1. **Impor ulang XML terbaru.** File `.mpp` yang dibuat dari XML versi awal memiliki durasi memanjang karena `Remaining Duration` dan tanggal assignment masih membawa nilai lama. XML terbaru sudah diperbaiki. Buka XML → Save As `.mpp`, lalu cek **Project → Statistics**.
-2. **Jangan menimpa Baseline 0.** Baseline 0 adalah pembanding tetap. Baseline 1 sudah terisi di file FINAL.
-3. **Setelah impor, tekan F9** untuk recalculate. Jika ada pergeseran 1 hari pada 1.6.3, set ulang Baseline 1 dan gunakan tanggal hasil recalculate.
+2. **Tanggal baseline tidak berubah.** Yang diperbarui hanya BAC (Rp242.678.233) dan penambahan 1.4.7/1.4.8; jangan memindahkan milestone 1.6.6 dari 24 April 2026.
+3. **Setelah impor, tekan F9** untuk recalculate. Pastikan 1.4.7 dan 1.4.8 tidak memanjangkan jalur kritis; jika finish bergeser, kurangi durasi task lain di dalam float, bukan menggeser milestone.
 4. **Screenshot M8** harus diambil dari file `M8_PROGRESS.mpp` dengan status date 20 Maret 2026 dan Baseline for Earned Value = Baseline.
-5. **Screenshot M10** harus diambil dari file `M9_M10_FINAL.mpp` dengan Baseline 0 dan Baseline 1 terlihat.
+5. **Screenshot M10** harus diambil dari file `M9_M10_FINAL.mpp` dengan finish 24 April 2026 dan cost Rp242.678.233 terlihat.
 6. **Risk Register** perlu dilampirkan jika dosen meminta file terpisah; ringkasan sudah ada di M10 Bagian E.
 7. **Sign-off** perlu tanda tangan basah/digital dari Sponsor, PM, dan User Representative.
 
@@ -203,12 +204,13 @@ Angka acuan M10:
 | `docs/03-wpd-earned-value.md` | M8 WPD/EVM |
 | `docs/04-cp3-checklist.md` | Checklist ini |
 | `docs/05-risk-register.md` | Risk Register ringkasan |
-| `docs/06-cr-form.md` | Form Change Request 02/CR/2026 (sumber pengisian template DOCX) |
+| `docs/06-cr-form.md` | Form Change Request 01/CR/2026 (sumber pengisian template DOCX) |
+| `docs/06b-cr-form-002.md` | Form Change Request 02/CR/2026 |
 | `docs/07-cr-log.md` | CR Log (sumber pengisian template XLSX) |
 | `docs/xlsx/07-cr-log.xlsx` | CR Log dalam format template Excel |
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_FIXED.xml` | Jadwal bersih |
 | `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M8_PROGRESS.xml` | Progress M8 |
-| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M9_M10_FINAL.xml` | 02/CR/2026 + Baseline 1 |
+| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M9_M10_FINAL.xml` | 01/CR/2026 + 02/CR/2026 + BAC final |
 
 ---
 

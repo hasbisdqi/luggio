@@ -6,9 +6,9 @@ kebutuhan yang berbeda.
 
 | File | Isi | Dipakai untuk |
 |---|---|---|
-| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_FIXED.xml` | Jadwal bersih, Baseline 0, **tanpa** progress, Baseline 1 kosong | Master / arsip. Jika ingin mulai dari nol. |
-| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M8_PROGRESS.xml` | Baseline 0 + progress simulasi per **20 Mar 2026**, Baseline 1 kosong | Screenshot **M8**: EV table, EV over time, S-Curve, Gantt progress. |
-| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M9_M10_FINAL.xml` | Baseline 0 + **02/CR/2026** + **Baseline 1** + semua task 100% | Screenshot **M9** (verifikasi CR/Baseline 1) dan **M10** (closing/final EV). |
+| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_FIXED.xml` | Jadwal bersih, Baseline 0, **tanpa** progress dan **tanpa** CR | Master / arsip. Jika ingin mulai dari nol. |
+| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M8_PROGRESS.xml` | Baseline 0 + progress simulasi per **20 Mar 2026** | Screenshot **M8**: EV table, EV over time, S-Curve, Gantt progress. |
+| `Projek Akhir MPTI_RFID pelacakan bagasi bandara_M9_M10_FINAL.xml` | Baseline 0 + **01/CR/2026** + **02/CR/2026** (paralel) + semua task 100% | Screenshot **M9** (verifikasi CR) dan **M10** (closing/final EV). |
 
 > File `.mpp` tidak bisa dibuat di macOS. Buka XML di MS Project (Windows),
 > lalu **Save As** menjadi `.mpp` dengan nama yang sesuai.
@@ -23,7 +23,14 @@ kebutuhan yang berbeda.
 > (timpa file lama). Setelah itu cek **Project → Statistics**:
 >
 > - FIXED dan M8_PROGRESS: finish **24 Apr 2026**, duration **53d**
-> - FINAL: finish **1 Mei 2026**, duration **58d**
+> - FINAL: finish **24 Apr 2026**, duration **53d**, cost **Rp242.678.233**
+>
+> **Aturan CR (mulai revisi ini):** dua CR disetujui CCB 24 Mar 2026 —
+> 01/CR/2026 Middleware API DCS (5 hari, Rp15.000.000) dan 02/CR/2026
+> Validasi & Retry RFID (3 hari, Rp8.000.000). Keduanya **dikerjakan paralel
+> di dalam _float_**, sehingga **tanggal selesai proyek tetap 24 Apr 2026**.
+> Baseline 0 tidak digeser; yang berubah hanya **BAC** menjadi
+> **Rp242.678.233**. Jangan menggeser milestone 1.6.6.
 > - Tidak boleh ada tanggal 2027/2028 atau durasi >60 hari.
 >
 > Jika masih muncul durasi memanjang, jangan disimpan — beri tahu saya.
@@ -76,9 +83,9 @@ baseline cost sudah disamakan dengan biaya rencana, sehingga:
 | Item | Nilai |
 |---|---|
 | Status Date | 20 Mar 2026 |
-| % Complete proyek | **57%** |
+| % Complete proyek | **51%** |
 | Progress per fase | 1.1–1.3 = 100%; 1.4 = 50%; 1.5–1.6 = 0% |
-| BAC (work packages) | Rp216.678.233 |
+| BAC (work packages) | Rp239.678.233 |
 | EV (work packages) | **Rp122.578.233** |
 | AC (work packages) | **Rp122.578.233** |
 | PV (work packages) | ± **Rp149.897.333** |
@@ -87,8 +94,8 @@ baseline cost sudah disamakan dengan biaya rencana, sehingga:
 | SV | ± **−Rp27.319.100** |
 | CPI | **1,00** |
 | SPI | **0,818** |
-| EAC (work packages) | Rp216.678.233 |
-| EAC total proyek | Rp219.678.233 |
+| EAC (work packages) | Rp239.678.233 |
+| EAC total proyek | Rp242.678.233 |
 | VAC | Rp0 |
 
 Catatan: angka EV/AC/PV di tabel MS Project bisa berbeda tipis karena
@@ -96,36 +103,36 @@ pembulatan dan karena fixed cost proyek Rp3.000.000. Gunakan angka yang
 muncul di **Project → Statistics** dan tabel **Earned Value** saat screenshot.
 CPI tetap 1,00 dan SPI tetap sekitar 0,818.
 
-### M9/M10 — setelah 02/CR/2026 (file `M9_M10_FINAL`)
+### M9/M10 — setelah 01/CR/2026 dan 02/CR/2026 (file `M9_M10_FINAL`)
 
-| Item | Baseline 0 | Baseline 1 |
+| Item | Baseline 0 (awal) | Setelah 2 CR |
 |---|---|---|
-| Finish | 24 Apr 2026 | **1 Mei 2026** |
-| Durasi | 53 hari | **58 hari** |
-| Total cost | Rp219.678.233 | **Rp234.678.233** |
-| 02/CR/2026 | — | +Rp15.000.000 (5 hari) |
+| Finish | 24 Apr 2026 | **24 Apr 2026** |
+| Durasi | 53 hari | **53 hari** |
+| Total cost (BAC) | Rp219.678.233 | **Rp242.678.233** |
+| 01/CR/2026 | — | +Rp15.000.000 (5 hari, paralel) |
+| 02/CR/2026 | — | +Rp8.000.000 (3 hari, paralel) |
 
 | Item | Nilai akhir |
 |---|---|
-| EV (Baseline 0) | **Rp219.678.233** |
-| AC | **Rp234.678.233** |
-| CV | **−Rp15.000.000** |
-| CPI | **0,936** |
-| EAC | **Rp234.678.233** |
-| VAC | **−Rp15.000.000** |
+| BAC | **Rp242.678.233** |
+| EV | **Rp242.678.233** |
+| AC | **Rp242.678.233** |
+| CV | **Rp0** |
+| CPI | **1,00** |
+| EAC | **Rp242.678.233** |
+| VAC | **Rp0** |
 | SPI saat selesai | 1,00 |
 
-02/CR/2026 di file FINAL:
+CR di file FINAL (keduanya type **Corrective Action**):
 
-- Nama: **Pengembangan Middleware & Adaptor API DCS**
-- WBS: **1.4.7** (di bawah 1.4 Pengembangan Software)
-- Durasi: **5 hari** (2–8 Apr 2026)
-- Biaya: **Rp15.000.000**
-- Predecessor: 1.4.6 (Fitur Ekspor Laporan)
-- Successor: 1.6.1 (Pengujian Seluruh Modul) dan 1.6.2 (Laporan Hasil
-  Pengujian/SIT)
-- Efek: fase pengujian–penutupan bergeser 5 hari kerja; finish proyek
-  menjadi **1 Mei 2026**.
+| CR | WBS | Nama | Durasi | Biaya | Penjadwalan |
+|---|---|---|---|---|---|
+| 01/CR/2026 | 1.4.7 | Pengembangan Middleware API DCS | 5 hari | Rp15.000.000 | 2–8 Apr 2026, paralel (predecessor 1.4.6) |
+| 02/CR/2026 | 1.4.8 | Pengembangan Validasi dan Retry RFID | 3 hari | Rp8.000.000 | 2–6 Apr 2026, paralel dengan 1.4.7 |
+
+Karena keduanya paralel dan berada di dalam *float* fase pengembangan, fase
+pengujian–penutupan **tidak bergeser** dan milestone 1.6.6 tetap 24 Apr 2026.
 
 ---
 
@@ -163,39 +170,33 @@ CPI tetap 1,00 dan SPI tetap sekitar 0,818.
 
 1. Buka `..._M9_M10_FINAL.xml`, lalu **Save As**
    `..._M9_M10_FINAL.mpp`.
-2. Cek **Baseline 0 tidak berubah**:
-   Finish 24 Apr 2026, Cost Rp219.678.233, Durasi 53d.
-3. Cek **Baseline 1**:
-   - Project → Project Information → Statistics → pilih **Baseline 1**,
-   - atau View → Gantt → Format → Baseline → **Baseline 1**.
-   - Finish **1 Mei 2026**, Durasi **58d**, Cost **Rp234.678.233**.
-4. Cek task **1.4.7 Pengembangan Middleware & Adaptor API DCS**:
-   5 hari, Rp15.000.000, predecessor 1.4.6, successor 1.6.1 dan 1.6.2.
-5. Untuk M10, semua task sudah **100% complete**, status date 1 Mei 2026.
+2. Cek **finish proyek tetap 24 Apr 2026** (milestone 1.6.6), durasi 53d.
+3. Cek **cost total = Rp242.678.233** (BAC awal Rp219.678.233 + Rp23.000.000).
+4. Cek task **1.4.7 Middleware API DCS** (5 hari, Rp15.000.000) dan
+   **1.4.8 Validasi dan Retry RFID** (3 hari, Rp8.000.000); keduanya
+   dijadwalkan paralel dan **tidak** memanjangkan jalur kritis.
+5. Untuk M10, semua task sudah **100% complete**, status date 24 Apr 2026.
    Screenshot:
-   - Project Statistics (Baseline 0 vs Baseline 1),
+   - Project Statistics (finish 24 Apr 2026, cost Rp242.678.233),
    - tabel Earned Value akhir (EV, AC, CPI, EAC, VAC),
-   - Gantt final dengan Baseline 1,
-   - task 02/CR/2026.
-6. Angka akhir: EV Rp219.678.233; AC Rp234.678.233; CPI 0,936;
-   EAC Rp234.678.233; VAC −Rp15.000.000.
+   - Gantt final dengan task 1.4.7 dan 1.4.8,
+   - task 01/CR/2026 dan 02/CR/2026.
+6. Angka akhir: EV Rp242.678.233; AC Rp242.678.233; CPI 1,00;
+   EAC Rp242.678.233; VAC Rp0.
 
 ---
 
 ## 4. Hal yang perlu diperhatikan saat membuka di MS Project
 
-1. **Jangan menimpa Baseline 0.** Baseline 0 adalah pembanding tetap.
-   Jika perlu set ulang setelah recalculate, pilih **Baseline 1**
-   (Project → Set Baseline → Baseline 1 → OK).
+1. **Jangan menggeser tanggal baseline.** Baseline 0 tetap 24 Apr 2026.
+   Yang boleh diperbarui hanya biaya (BAC Rp242.678.233). Jika setelah
+   recalculate finish bergeser, perbaiki durasi di dalam *float* — jangan
+   memindahkan milestone 1.6.6.
 2. Setelah file dibuka, tekan **F9** (Calculate Now). MS Project akan
    menghitung ulang summary dan sisa durasi.
 3. Pada file FINAL, task 1.6.3 (UAT) mewarisi celah 1 hari dari baseline
-   asli. Jika setelah F9 tanggalnya bergeser satu hari (mis. mulai 16 Apr
-   dan selesai 30 Apr), itu normal. Yang penting:
-   - Baseline 0 tetap 24 Apr,
-   - Baseline 1 tetap 1 Mei (kecuali kamu set ulang Baseline 1 setelah
-     recalculate; jika begitu, gunakan tanggal hasil recalculate dan tulis
-     “30 Apr–1 Mei 2026” di laporan).
+   asli. Jika setelah F9 tanggalnya bergeser satu hari, itu normal selama
+   **finish proyek tetap 24 Apr 2026**.
 4. File M8 adalah **simulasi progress** sesuai skenario:
    1.1–1.3 100%, 1.4 50%, 1.5–1.6 0%. Kalau data aktual berbeda,
    ubah % Complete di MS Project — angka EV akan menyesuaikan otomatis.

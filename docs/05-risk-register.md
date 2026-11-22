@@ -6,7 +6,7 @@
 |---|---|
 | Nomor Dokumen | LUGGIO-CP3-RR-001 |
 | Versi | 1.0 |
-| Tanggal | 1 Mei 2026 |
+| Tanggal | 24 April 2026 |
 | Status | Final — ringkasan untuk CP3 |
 | Proyek | LUGGIO: Sistem Pelacakan Bagasi RFID Bandara Indo-Aero |
 | Penyusun | Muhammad Hasbi Assidiqi — Network/Hardware Engineer |
@@ -56,12 +56,12 @@ Dokumen ini mencatat risiko proyek, skor risiko, respons, pemilik, dan status ak
 | ID | Respons | Owner | Status | Residual |
 |---|---|---|---|---|
 | R-01 | Pemesanan awal, monitoring vendor, buffer pengiriman | PM | Closed | Rendah |
-| R-02 | 02/CR/2026 middleware/adaptor, contract test, simulator | System Analyst | Closed | Rendah |
+| R-02 | 01/CR/2026 Middleware API DCS, contract test, simulator | System Analyst | Closed | Rendah |
 | R-03 | Koordinasi slot, tim siaga, pekerjaan per zona | Network Engineer | Closed | Rendah |
-| R-04 | Site survey, penempatan tag, pilot, kalibrasi | QA/Network | Closed | Rendah |
+| R-04 | Site survey, penempatan tag, pilot, kalibrasi, 02/CR/2026 validasi & retry | QA/Network | Closed | Rendah |
 | R-05 | AP outdoor, survey coverage, uji roaming | Network Engineer | Closed | Rendah |
 | R-06 | Pelatihan dua batch, jadwal shift, refresher | PM | Residual | Sedang |
-| R-07 | CCB, 02/CR/2026, baseline 1 | PM | Closed | Rendah |
+| R-07 | CCB, 01/CR/2026 dan 02/CR/2026, pembaruan BAC | PM | Closed | Rendah |
 | R-08 | Penjadwalan fleksibel, pekerjaan dalam ruang | Network Engineer | Closed | Rendah |
 | R-09 | Monitoring vendor, regression test, documented interface | System Analyst | Open — monitoring | Sedang |
 
@@ -72,9 +72,9 @@ Dokumen ini mencatat risiko proyek, skor risiko, respons, pemilik, dan status ak
 | ID | Tipe respons | Ringkasan tindakan |
 |---|---|---|
 | R-01 | Mitigasi | Pemesanan awal, vendor monitoring, buffer jadwal. |
-| R-02 | Mitigasi | 02/CR/2026 middleware, contract test, integration test dengan simulator. |
+| R-02 | Mitigasi | 01/CR/2026 Middleware API DCS, contract test, integration test dengan simulator. |
 | R-03 | Mitigasi | Koordinasi window malam dan tim siaga. |
-| R-04 | Mitigasi | Survey, penempatan tag, pilot, kalibrasi reader. |
+| R-04 | Mitigasi | Survey, penempatan tag, pilot, kalibrasi reader, dan 02/CR/2026 (validasi + retry otomatis). |
 | R-05 | Mitigasi | Penambahan AP outdoor dan uji coverage. |
 | R-06 | Mitigasi + acceptance | Dua batch pelatihan; sisa risiko diterima dan dimonitor. |
 | R-07 | Mitigasi | CCB dan baseline 1. |

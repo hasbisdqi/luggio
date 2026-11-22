@@ -24,7 +24,7 @@ Tiga file XML disiapkan untuk kebutuhan berbeda:
 |---|---|---|
 | `..._FIXED.xml` | Baseline 0, tanpa progress | Master/arsip |
 | `..._M8_PROGRESS.xml` | Progress 20 Mar 2026 | Screenshot M8 |
-| `..._M9_M10_FINAL.xml` | 02/CR/2026 + Baseline 1 + 100% | M9/M10 |
+| `..._M9_M10_FINAL.xml` | 01/CR/2026 + 02/CR/2026 (paralel) + 100% | M9/M10 |
 
 ## Penting — impor ulang ke MPP
 
@@ -33,7 +33,7 @@ File `.mpp` yang dibuat dari XML versi awal masih memiliki durasi memanjang kare
 Buka ulang ketiga XML terbaru di MS Project (Windows), lalu **Save As** `.mpp`. Cek **Project → Statistics**:
 
 - FIXED/M8: finish **24 Apr 2026**, 53 hari.
-- FINAL: finish **1 Mei 2026**, 58 hari.
+- FINAL: finish **24 Apr 2026**, 53 hari (BAC Rp242.678.233).
 - Tidak boleh ada tanggal 2027/2028 atau durasi >60 hari.
 
 Langkah lengkap: [`CARA-PAKAI-FIXED.md`](CARA-PAKAI-FIXED.md).
